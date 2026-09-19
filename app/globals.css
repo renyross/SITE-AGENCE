@@ -43,7 +43,7 @@ main{max-width:1440px;margin:auto;padding:0 80px 64px}
 .hero-underline-svg{display:block;width:100%;max-width:540px;height:clamp(8px,1vw,16px)}
 .hero-subphrase{display:block;font-size:clamp(2rem,1.4rem + 2.5vw,4.25rem);font-weight:800;letter-spacing:-.035em;color:#F7F7F7;margin-top:2px}
 .hero-accent-purple{color:#8B5CF6;background:linear-gradient(135deg,#A78BFA 0%,#8B5CF6 50%,#6366F1 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;display:inline-block}
-.hero .lead{font-size:clamp(1.05rem,0.95rem + .3vw,1.25rem);line-height:1.6;max-width:62ch;margin:0 0 24px 0;color:#B0B0BA}
+.hero .lead{font-size:clamp(1.05rem,0.95rem + .3vw,1.25rem);line-height:1.6;max-width:62ch;margin:0 0 32px 0;color:#B0B0BA}
 .lead-strong{color:#FFFFFF;font-weight:700}
 .hero-trust-checks{display:flex;flex-wrap:wrap;align-items:center;gap:clamp(14px,2.5vw,28px);margin:0 0 32px 0}
 .hero-trust-item{display:inline-flex;align-items:center;gap:8px;font-size:clamp(0.875rem,0.82rem + 0.2vw,0.9375rem);font-weight:600;color:#F7F7F7}

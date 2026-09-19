@@ -53,27 +53,6 @@ const heroSection = `
 
     <p class="lead">Nous concevons des systèmes d'automatisation intelligents qui connectent vos outils, éliminent les tâches répétitives et optimisent vos opérations marketing, commerciales et internes.</p>
 
-    <div class="hero-trust-checks" aria-label="Engagements et garanties ALTEORIA">
-      <div class="hero-trust-item">
-        <svg class="hero-check-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-          <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
-        </svg>
-        <span>Ingénierie IA sur-mesure</span>
-      </div>
-      <div class="hero-trust-item">
-        <svg class="hero-check-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-          <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
-        </svg>
-        <span>Zéro friction opérationnelle</span>
-      </div>
-      <div class="hero-trust-item">
-        <svg class="hero-check-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-          <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
-        </svg>
-        <span>Rentabilité mesurée</span>
-      </div>
-    </div>
-
     <div class="hero-actions">
       <a class="button primary" href="/services">Automatiser vos processus <span aria-hidden="true" class="arrow">→</span></a>
       <a class="button" href="/free-ai-visibility-audit">Demander un audit gratuit <span aria-hidden="true" class="arrow">↗</span></a>
