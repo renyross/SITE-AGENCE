@@ -1,90 +1,255 @@
 [
   {
     "slug": "juridique",
-    "title": "Juridique",
-    "intro": "Valorisez l'expertise de votre cabinet d'avocats ou d'office notarial.",
-    "description": "Positionnez vos associés sur des requêtes à haute valeur ajoutée, développez votre réputation et automatisez la qualification initiale des dossiers entrants.",
+    "title": "Cabinets d'avocats & Services juridiques",
+    "intro": "Nous aidons les cabinets d'élite à asseoir leur autorité E-E-A-T et à capter des dossiers à haute valeur ajoutée.",
+    "description": "Positionnez vos associés sur des requêtes et thématiques à forte intention d'achat, protégez votre réputation numérique et automatisez la qualification initiale des dossiers entrants dans le strict respect de la déontologie.",
     "focus": [
-      "Autorité et notoriété du cabinet",
-      "Génération de dossiers qualifiés",
-      "Sécurisation des échanges et conformité"
+      "Autorité E-E-A-T et notoriété des associés",
+      "Génération de dossiers contentieux & corporate qualifiés",
+      "Qualification confidentielle et sécurisation des échanges"
+    ],
+    "painPoints": [
+      "Coût par acquisition (CPA) très élevé",
+      "Différenciation complexe dans un cadre réglementé"
+    ],
+    "verticals": [
+      "Droit des affaires & Corporate",
+      "Défense pénale des dirigeants",
+      "Droit de la famille & Patrimoine",
+      "Propriété intellectuelle & Brevets",
+      "Droit immobilier & Urbanisme",
+      "Contentieux & Arbitrage commercial"
     ]
   },
   {
     "slug": "comptabilite",
-    "title": "Comptabilité",
-    "intro": "Attirez de nouveaux clients TPE, PME et startups pour vos missions d'expertise.",
+    "title": "Cabinets comptables & Expertise-comptable",
+    "intro": "Croissance numérique pour les professionnels du chiffre : transformez vos missions légales de conformité en mandats de conseil à haute valeur.",
     "description": "Clarifiez vos offres d'accompagnement comptable, fiscal et social, améliorez votre visibilité locale et facilitez la prise de rendez-vous avec vos experts.",
     "focus": [
-      "Référencement local et national",
-      "Valorisation des missions de conseil",
-      "Prise de contact et onboarding fluide"
+      "Référencement local et requêtes d'intention nationale",
+      "Valorisation des missions de conseil et d'accompagnement",
+      "Prise de contact fluide et onboarding automatisé"
+    ],
+    "painPoints": [
+      "Banalisation tarifaire des services de tenue",
+      "Creux de revenus saisonniers après la période fiscale"
+    ],
+    "verticals": [
+      "Cabinets d'expertise comptable",
+      "Fiscalité & Déclarations complexes",
+      "Commissariat aux comptes & Audit légal",
+      "Gestion de la paie & Conformité RH",
+      "Tenue de livres & Automatisation des flux",
+      "Conseil TVA & Fiscalité internationale"
     ]
   },
   {
     "slug": "finance",
-    "title": "Finance",
-    "intro": "Rendez vos offres financières et d'investissement claires et accessibles.",
-    "description": "Bâtissez la confiance auprès des décideurs, structurez des contenus éducatifs rigoureux et optimisez vos entonnoirs d'acquisition pour des services financiers exigeants.",
+    "title": "Services financiers, FinTech & Investissement",
+    "intro": "La confiance est la monnaie de la finance. Nous bâtissons des forteresses d'autorité numérique pour les FinTechs, gérants de fortune et banques privées.",
+    "description": "Bâtissez la crédibilité auprès des investisseurs, structurez des contenus éducatifs d'expertise et optimisez vos entonnoirs d'acquisition pour des décisions d'investissement exigeantes.",
     "focus": [
-      "Clarté de l'offre et pédagogie",
-      "Validation éditoriale et conformité",
-      "Attribution marketing multi-touch"
+      "Validation éditoriale rigoureuse et conformité légale",
+      "Optimisation des requêtes de confiance et E-E-A-T",
+      "Modélisation d'attribution multi-touch et tracking précis"
+    ],
+    "painPoints": [
+      "Filtres stricts Google YMYL (Your Money Your Life)",
+      "Cycles de décision longs et haut niveau de preuve requis"
+    ],
+    "verticals": [
+      "Gestion de patrimoine & Private Banking",
+      "Conseil en investissement financier (CIF)",
+      "Entreprises FinTech & Solutions de paiement",
+      "Sociétés de gestion & Fonds d'investissement",
+      "Courtage & Conseil en assurance de prestige",
+      "Planification patrimoniale & Transmission"
     ]
   },
   {
     "slug": "conseil",
-    "title": "Conseil",
-    "intro": "Rendez votre expertise visible auprès des décideurs.",
-    "description": "Publiez des analyses, des guides et des références vérifiables pour aider les décideurs à évaluer votre expertise.",
+    "title": "Cabinets de conseil & Stratégie d'entreprise",
+    "intro": "Positionnez votre cabinet comme la référence intellectuelle incontournable sur votre niche auprès des comités de direction.",
+    "description": "Publiez des analyses stratégiques, des livres blancs d'autorité et des études de cas vérifiables pour inciter les directions générales à solliciter vos associés.",
     "focus": [
-      "Contenus d'autorité et études sectorielles",
-      "Visibilité auprès des comités de direction",
-      "Suivi des prospects grands comptes"
+      "Contenus d'autorité sectorielle et thèses de marché",
+      "Visibilité ciblée auprès des comités de direction (C-Level)",
+      "Nurturing automatisé des prospects grands comptes"
+    ],
+    "painPoints": [
+      "Cycles de vente consultatifs longs et multipartites",
+      "Difficulté à prouver et quantifier le ROI marketing"
+    ],
+    "verticals": [
+      "Conseil en stratégie & Gouvernance",
+      "Optimisation des opérations & Chaîne logistique",
+      "Conseil RH, Leadership & Gestion des talents",
+      "Advisory pour startups & Scale-ups",
+      "Gestion des risques & Conformité réglementaire",
+      "Transformation numérique & Architectures IA"
     ]
   },
   {
     "slug": "immobilier",
-    "title": "Immobilier",
-    "intro": "Reliez la recherche locale aux mandats et aux ventes de prestige.",
-    "description": "Améliorez la visibilité de vos programmes neufs ou de vos biens d'exception sur les moteurs de recherche et les moteurs IA, avec des tunnels d'estimation performants.",
+    "title": "Immobilier d'exception, Promoteurs & Gestion d'actifs",
+    "intro": "Génération d'acquéreurs et d'investisseurs qualifiés pour les promoteurs haut de gamme, courtiers de prestige et gestionnaires de parcs.",
+    "description": "Améliorez la visibilité de vos programmes neufs et biens d'exception sur les moteurs de recherche et moteurs IA, avec des tunnels de qualification performants.",
     "focus": [
-      "Visibilité locale et géolocalisée",
-      "Présentation visuelle immersive",
-      "Qualification et routage réactif des leads"
+      "Visibilité géolocalisée et domination sur les requêtes locales",
+      "Mise en scène visuelle immersive et dossiers d'actifs",
+      "Qualification et distribution instantanée des contacts"
+    ],
+    "painPoints": [
+      "Forte proportion de contacts non solvables",
+      "Volatilité conjoncturelle du marché et des taux"
+    ],
+    "verticals": [
+      "Immobilier d'entreprise & Bureaux",
+      "Agences résidentielles de prestige",
+      "Gestion locative & Property Management",
+      "Facility Management & Maintenance de parcs",
+      "Conseil en baux commerciaux & Négociation",
+      "Investissement & Foncières immobilières"
     ]
   },
   {
     "slug": "industrie",
-    "title": "Industrie",
-    "intro": "Générez des consultations qualifiées pour vos équipements et solutions industrielles.",
-    "description": "Aidez les ingénieurs et acheteurs industriels à trouver vos spécifications techniques, vos catalogues produits et vos démonstrations sur les canaux de recherche modernes.",
+    "title": "Industrie manufacturière & Équipements B2B",
+    "intro": "Reliez la solidité de votre savoir-faire industriel aux nouveaux standards de découverte numérique et d'ingénierie d'affaires.",
+    "description": "Aidez les ingénieurs et acheteurs industriels à trouver vos spécifications techniques, catalogues de pièces et démonstrations sur les canaux modernes.",
     "focus": [
-      "Catalogues et données techniques structurées",
-      "Cycles d'achat B2B longs et comités d'experts",
-      "Génération de demandes de devis qualifiées"
+      "Structuration de données techniques et catalogues produits",
+      "Prise en compte des cycles d'achat B2B et bureaux d'études",
+      "Génération de demandes de devis industriels qualifiées"
+    ],
+    "painPoints": [
+      "Spécifications produits denses et complexes à digitaliser",
+      "Audiences d'ingénieurs et acheteurs ultra-ciblées"
+    ],
+    "verticals": [
+      "Sous-traitance industrielle & Pièces de précision",
+      "Machines-outils & Équipements de production",
+      "Fabricants d'équipements d'origine (OEM)",
+      "Fournisseurs de matières premières & Alliages",
+      "Automatisation d'usine & Lignes robotisées",
+      "Bureaux d'études techniques & Ingénierie mécanique"
     ]
   },
   {
     "slug": "coaching-formation",
-    "title": "Coaching & Formation",
-    "intro": "Aidez les futurs participants à choisir votre programme.",
-    "description": "Guidez vos futurs apprenants de la découverte à l'inscription grâce à des webinaires, des séquences d'automatisation bienveillantes et des témoignages inspirants.",
+    "title": "Coaching d'élite, Formation & Écoles professionnelles",
+    "intro": "Développez l'autorité de vos formateurs et remplissez vos promotions grâce à des tunnels automatisés haute conversion.",
+    "description": "Guidez vos futurs apprenants de la découverte à l'inscription grâce à des présentations vidéo, des parcours d'admission automatisés et des preuves sociales vérifiables.",
     "focus": [
-      "Pages de programmes orientées conversion",
-      "Parcours d'inscription automatisés",
-      "Preuve sociale et valorisation des alumni"
+      "Pages de programmes calibrées pour la conversion",
+      "Parcours d'admission et de relance automatisés",
+      "Valorisation des réussites d'anciens apprenants (alumni)"
+    ],
+    "painPoints": [
+      "Tension constante sur le remplissage des sessions",
+      "Démonstration tangible de l'employabilité et du ROI"
+    ],
+    "verticals": [
+      "Centres de préparation aux concours & Épreuves d'élite",
+      "Coaching de carrière & Reconversion pour cadres",
+      "Business coaching pour fondateurs & Dirigeants",
+      "Formation professionnelle continue intra-entreprise",
+      "Instituts techniques & Perfectionnement métier",
+      "Formations certifiantes & Diplômes accrédités"
     ]
   },
   {
     "slug": "commerce-logistique",
-    "title": "Commerce & Logistique",
-    "intro": "Accélérez vos flux de distribution et optimisez votre acquisition omnicanale.",
-    "description": "Alignez vos campagnes d'acquisition, la structuration de vos flux de produits et la fidélisation client pour maximiser la rentabilité de chaque transaction.",
+    "title": "Négoce industriel, Import-Export & Chaîne logistique",
+    "intro": "Accélération numérique et acquisition de contrats pour les acteurs majeurs des flux commerciaux et de distribution internationale.",
+    "description": "Alignez vos campagnes d'acquisition, la structuration de vos flux de marchandises et la fidélisation client pour maximiser la rentabilité de chaque transaction.",
     "focus": [
-      "Optimisation des flux de catalogues produits",
-      "Acquisition performante multi-plateformes",
-      "Fidélisation et automatisation post-achat"
+      "Optimisation des flux de catalogues et disponibilité en temps réel",
+      "Acquisition performante multi-canaux B2B",
+      "Automatisation de la relation et des réapprovisionnements"
+    ],
+    "painPoints": [
+      "Faible maturité numérique historique du secteur",
+      "Pression agressive de la concurrence internationale"
+    ],
+    "verticals": [
+      "Unités d'usinage & Ateliers de fabrication",
+      "Engins de chantier & Équipements lourds",
+      "Usines de production B2B & Grossistes",
+      "Fournitures & Consommables industriels",
+      "Sociétés d'importation, exportation & Douane",
+      "Transport de fret, Logistique & Supply Chain"
+    ]
+  },
+  {
+    "slug": "etablissements-soins",
+    "title": "Établissements de santé & Cliniques spécialisées",
+    "intro": "Communication numérique empathique, rigoureuse et axée sur la confiance pour les établissements de soins et de convalescence.",
+    "description": "Apportez une information claire, transparente et rassurante aux patients et à leurs proches pour faciliter l'orientation et l'admission dans votre établissement.",
+    "focus": [
+      "Crédibilité médicale irréprochable et validation des protocoles",
+      "Parcours d'information rassurant pour les familles",
+      "Accessibilité numérique et conformité RGPD santé"
+    ],
+    "painPoints": [
+      "Exigence absolue d'éthique et de transparence",
+      "Prise de décision partagée entre patients et proches aidants"
+    ],
+    "verticals": [
+      "Résidences avec encadrement médicalisé",
+      "Services de soins infirmiers & Maintien à domicile",
+      "Cliniques spécialisées & Centres de convalescence",
+      "Établissements de rééducation fonctionnelle & Réadaptation",
+      "Structures d'accueil & Prise en charge du handicap",
+      "Soins de suite post-hospitalisation"
+    ]
+  },
+  {
+    "slug": "services-seniors",
+    "title": "Résidences seniors & Services aux aînés",
+    "intro": "Valorisez la dignité, la sécurité et l'épanouissement au sein des résidences pour personnes âgées et services dédiés.",
+    "description": "Développez la notoriété de vos résidences en mettant en avant la qualité des prestations, la convivialité des espaces et la bienveillance du personnel auprès des familles.",
+    "focus": [
+      "Visites virtuelles et présentations immersives des résidences",
+      "Accompagnement humain et écoute des familles",
+      "Dispositifs d'information locale et avis certifiés"
+    ],
+    "painPoints": [
+      "A priori culturels et perception délicate du secteur",
+      "Tension sur les recrutements et gestion des capacités d'accueil"
+    ],
+    "verticals": [
+      "Résidences services seniors autonomes & Villages retraite",
+      "Établissements d'hébergement pour personnes âgées",
+      "Unités spécialisées pour troubles cognitifs & Alzheimer",
+      "Habitats partagés & Logements indépendants avec services",
+      "Accompagnement palliatif & Prise en charge globale",
+      "Séjours temporaires & Hébergements longue durée"
+    ]
+  },
+  {
+    "slug": "gestion-dechets",
+    "title": "Gestion des déchets, Recyclage & Économie circulaire",
+    "intro": "Stratégies d'acquisition et de valorisation logistique pour les acteurs engagés dans le traitement durable des flux et ressources.",
+    "description": "Aidez les industriels, collectivités et professionnels du BTP à identifier vos solutions de collecte, de valorisation et de recyclage conformes aux normes environnementales.",
+    "focus": [
+      "Valorisation des filières écologiques et certifications ISO",
+      "Génération de contrats de collecte récurrents",
+      "Outils d'estimation et bordereaux de suivi digitalisés"
+    ],
+    "painPoints": [
+      "Sujet technique suscitant peu d'intérêt spontané sans obligation",
+      "Forte pression réglementaire et évolution constante des normes"
+    ],
+    "verticals": [
+      "Collecte & Tri des déchets d'entreprises (DIB)",
+      "Recyclage de métaux, Ferraille & Revalorisation",
+      "Traitement des déchets d'équipements électriques (DEEE)",
+      "Gestion des déchets d'activités de soins à risques (DASRI)",
+      "Traitement & Neutralisation des déchets dangereux",
+      "Valorisation de matières premières secondaires & Broyage"
     ]
   }
 ]
