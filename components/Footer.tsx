@@ -49,8 +49,8 @@ export default function Footer() {
       <div className="footer-main-grid">
         {/* Colonne 1: Marque & Description & Réseaux */}
         <div className="footer-brand-col">
-          <a href="/" className="footer-logo" aria-label="cognition. — Accueil">
-            cognition<span className="footer-logo-dot">.</span>
+          <a href="/" className="footer-logo" aria-label="ALTEORIA — Accueil">
+            ALTEORIA<span className="footer-logo-dot">.</span>
           </a>
           <p className="footer-mission-text">
             Référencement, contenu et automatisation pour aider vos prochains clients à vous trouver et à prendre contact.
@@ -137,7 +137,7 @@ export default function Footer() {
       {/* Barre inférieure : Copyright · Villes · Statut système */}
       <div className="footer-bottom-bar">
         <div className="footer-bottom-left">
-          © {new Date().getFullYear()} COGNITION AGENCY
+          © {new Date().getFullYear()} ALTEORIA
         </div>
         <div className="footer-bottom-cities">
           VISIBILITÉ · CONVERSION · MESURE

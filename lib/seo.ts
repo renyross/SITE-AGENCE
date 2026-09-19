@@ -13,7 +13,7 @@ function configuredOrigin(): string | null {
 }
 export const publicOrigin = configuredOrigin();
 export const origin = publicOrigin || 'http://127.0.0.1:3000';
-export const brand = site.name || 'Nom agence';
+export const brand = site.name || 'ALTEORIA';
 export const hasOrganization = Boolean(publicOrigin && site.name);
 export function absolute(path:string){return new URL(path, origin).toString()}
 export function pathFor(route:string){return route ? '/'+route : '/'}

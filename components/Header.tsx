@@ -67,9 +67,9 @@ export default function Header() {
         }}
       >
         <div className="app-header-row">
-          <a className="app-brand" href="/" aria-label="Nom agence — accueil">
+          <a className="app-brand" href="/" aria-label="ALTEORIA — accueil">
             <span className="brand-symbol" aria-hidden="true">↗</span>
-            <span className="app-brand-text">{site.name || 'Nom agence'}</span>
+            <span className="app-brand-text">{site.name || 'ALTEORIA'}</span>
           </a>
 
           <nav className="app-desktop-nav" aria-label="Navigation principale">
