@@ -1,0 +1,1 @@
+export default function NotFound(){return <main id="content" className="editorial-page" tabIndex={-1}><p className="label">404 / Page introuvable</p><h1>Cette page n’est pas disponible.</h1><p>Retrouvez nos services depuis l’accueil.</p><a className="button primary" href="/">Revenir à l’accueil</a></main>}

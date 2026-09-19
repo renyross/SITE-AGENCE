@@ -1,0 +1,167 @@
+[
+  {
+    "slug": "strategie-conseil",
+    "title": "Stratégie et conseil",
+    "intro": "Choisissez les priorités qui relient votre marketing à vos objectifs commerciaux.",
+    "items": [
+      "Audit de croissance",
+      "Feuille de route stratégique",
+      "Gouvernance & adoption IA",
+      "Positionnement de marché",
+      "Transformation marketing"
+    ],
+    "context": "Aligner vos investissements digitaux et l'IA avec vos objectifs de rentabilité.",
+    "approach": "Nous analysons votre marché, vos données historiques et vos processus pour bâtir une feuille de route priorisée.",
+    "measurement": "Indicateurs de performance (KPIs), retour sur investissement prévisionnel et jalons d'exécution."
+  },
+  {
+    "slug": "image-de-marque-creation",
+    "title": "Image de marque et création",
+    "intro": "Donnez à votre offre une identité claire et cohérente.",
+    "items": [
+      "Identité visuelle",
+      "Charte graphique & Design System",
+      "Plateforme de marque",
+      "Storytelling & tonalité",
+      "Supports créatifs"
+    ],
+    "context": "Faire émerger une marque distinctive dans un environnement saturé de contenus génériques.",
+    "approach": "Un travail collaboratif pour définir votre ADN, votre univers graphique et vos codes d'expression.",
+    "measurement": "Cohérence de marque, reconnaissance visuelle et taux d'engagement sur vos supports."
+  },
+  {
+    "slug": "conception-developpement-web",
+    "title": "Conception et développement web",
+    "intro": "Faites de votre site un parcours simple vers la prise de contact.",
+    "items": [
+      "Design d'interface UI/UX",
+      "Développement Next.js & React",
+      "Optimisation Core Web Vitals",
+      "Architecture orientée SEO & IA",
+      "Intégrations CRM & outils métier"
+    ],
+    "context": "Votre site est le centre névralgique de votre acquisition et de votre crédibilité commerciale.",
+    "approach": "Conception centrée utilisateur, code moderne et performant, sans compromis sur l'expérience mobile.",
+    "measurement": "Vitesse de chargement, taux de conversion des visiteurs et conformité aux standards web."
+  },
+  {
+    "slug": "referencement-naturel-croissance-organique",
+    "title": "Référencement naturel et croissance organique",
+    "intro": "Aidez les bons prospects à trouver vos pages dans les moteurs de recherche.",
+    "items": [
+      "Audit technique approfondi",
+      "SEO sémantique & clusters thématiques",
+      "Netlinking & autorité de domaine",
+      "Optimisation SEO local",
+      "Architecture de l'information"
+    ],
+    "context": "Capter la demande existante au moment exact où vos clients recherchent vos solutions.",
+    "approach": "Élimination des freins techniques, enrichissement sémantique et renforcement de l'autorité éditoriale.",
+    "measurement": "Trafic organique qualifié, positions sur les requêtes stratégiques et conversions générées."
+  },
+  {
+    "slug": "recherche-geo-ia",
+    "title": "Recherche GEO et IA",
+    "intro": "Rendez votre offre plus facile à comprendre et à citer dans les réponses IA.",
+    "items": [
+      "Generative Engine Optimization (GEO)",
+      "Answer Engine Optimization (AEO)",
+      "Suivi des citations IA",
+      "Optimisation d'entités & Knowledge Graph",
+      "Visibilité LLM"
+    ],
+    "context": "Les parcours de recherche évoluent : vos clients interrogent directement les moteurs génératifs.",
+    "approach": "Cartographie des requêtes IA, structuration des sources d'autorité et renforcement de l'empreinte de marque.",
+    "measurement": "Mentions et citations dans un panel de questions documenté. Aucune citation ni recommandation n’est garantie."
+  },
+  {
+    "slug": "medias-payants-ppc",
+    "title": "Médias payants (PPC)",
+    "intro": "Pilotez vos campagnes selon le coût et la qualité des demandes reçues.",
+    "items": [
+      "Google Ads (Search, Performance Max)",
+      "Meta Ads (Facebook & Instagram)",
+      "LinkedIn Ads (B2B)",
+      "Campagnes de retargeting",
+      "Optimisation du coût par acquisition"
+    ],
+    "context": "Générer rapidement des opportunités commerciales tout en contrôlant rigoureusement vos coûts d'acquisition.",
+    "approach": "Structure de compte éprouvée, landing pages dédiées et tests continus sur les messages et créations.",
+    "measurement": "Coût par lead qualifié (CPL), retour sur dépenses publicitaires (ROAS) et volume de conversions."
+  },
+  {
+    "slug": "marketing-de-contenu",
+    "title": "Marketing de contenu",
+    "intro": "Répondez aux questions qui précèdent la décision d’achat.",
+    "items": [
+      "Stratégie éditoriale",
+      "Création de contenu assistée par IA",
+      "Articles de fond & guides pratiques",
+      "Livre blanc & études de cas",
+      "Thought leadership"
+    ],
+    "context": "Répondre aux questions concrètes de vos acheteurs pour établir la confiance avant l'achat.",
+    "approach": "Identification des thématiques clés, processus éditorial rigoureux avec validation humaine systématique.",
+    "measurement": "Temps de lecture, partages, génération de leads et progression dans le tunnel d'achat."
+  },
+  {
+    "slug": "marketing-reseaux-sociaux",
+    "title": "Marketing sur les réseaux sociaux",
+    "intro": "Publiez des contenus utiles aux personnes que vous souhaitez toucher.",
+    "items": [
+      "Stratégie social media",
+      "Création de formats courts & visuels",
+      "Community management & animation",
+      "Programmes d'employee advocacy",
+      "Veille & écoute des tendances"
+    ],
+    "context": "Construire une relation continue avec votre écosystème et humaniser votre proposition de valeur.",
+    "approach": "Ligne éditoriale adaptée à chaque réseau, calendrier de publication régulier et formats interactifs.",
+    "measurement": "Croissance de l'audience, taux d'engagement et trafic généré vers le site web."
+  },
+  {
+    "slug": "video-multimedia",
+    "title": "Vidéo et multimédia",
+    "intro": "Expliquez votre offre avec des vidéos adaptées à vos canaux.",
+    "items": [
+      "Vidéos promotionnelles & corporate",
+      "Formats courts verticaux (Reels, TikTok)",
+      "Animations motion design",
+      "Podcasts & interviews d'experts",
+      "Production assistée par IA"
+    ],
+    "context": "Rendre une offre complexe plus facile à comprendre et à retenir.",
+    "approach": "Scénarisation, tournage/conception, montage dynamique et déclinaisons multiformats.",
+    "measurement": "Nombre de vues qualifiées, taux de complétion et mémorisation du message."
+  },
+  {
+    "slug": "automatisation-emails-marketing",
+    "title": "Automatisation des e-mails et du marketing",
+    "intro": "Organisez le suivi des prospects et réduisez les tâches répétitives.",
+    "items": [
+      "Workflows d'automation (n8n, Make, Zapier)",
+      "Séquences d'email nurturing",
+      "Scoring et qualification des leads",
+      "Synchronisation CRM",
+      "Agents IA pour le service client"
+    ],
+    "context": "Réduire les tâches répétitives tout en gardant un contrôle humain sur les exceptions.",
+    "approach": "Modélisation des déclencheurs, scénarisation des emails et sécurisation des transferts de données.",
+    "measurement": "Taux d'ouverture, taux de clic, temps de réponse commerciale et taux de closing."
+  },
+  {
+    "slug": "cro-analytique",
+    "title": "CRO et analytique",
+    "intro": "Repérez ce qui freine les conversions et testez des améliorations.",
+    "items": [
+      "Configuration GA4 & Search Console",
+      "Dashboards Looker Studio sur-mesure",
+      "Tests A/B et optimisation de landing pages",
+      "Analyse des entonnoirs de conversion",
+      "Attribution marketing multi-touch"
+    ],
+    "context": "Remplacer les intuitions par des données fiables pour maximiser l'efficacité de chaque euro investi.",
+    "approach": "Audit du plan de taggage, identification des points de friction et tests itératifs d'amélioration.",
+    "measurement": "Taux de conversion global, valeur moyenne par utilisateur et clarté des tableaux de bord."
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "juridique",
+    "title": "Juridique",
+    "intro": "Valorisez l'expertise de votre cabinet d'avocats ou d'office notarial.",
+    "description": "Positionnez vos associés sur des requêtes à haute valeur ajoutée, développez votre réputation et automatisez la qualification initiale des dossiers entrants.",
+    "focus": [
+      "Autorité et notoriété du cabinet",
+      "Génération de dossiers qualifiés",
+      "Sécurisation des échanges et conformité"
+    ]
+  },
+  {
+    "slug": "comptabilite",
+    "title": "Comptabilité",
+    "intro": "Attirez de nouveaux clients TPE, PME et startups pour vos missions d'expertise.",
+    "description": "Clarifiez vos offres d'accompagnement comptable, fiscal et social, améliorez votre visibilité locale et facilitez la prise de rendez-vous avec vos experts.",
+    "focus": [
+      "Référencement local et national",
+      "Valorisation des missions de conseil",
+      "Prise de contact et onboarding fluide"
+    ]
+  },
+  {
+    "slug": "finance",
+    "title": "Finance",
+    "intro": "Rendez vos offres financières et d'investissement claires et accessibles.",
+    "description": "Bâtissez la confiance auprès des décideurs, structurez des contenus éducatifs rigoureux et optimisez vos entonnoirs d'acquisition pour des services financiers exigeants.",
+    "focus": [
+      "Clarté de l'offre et pédagogie",
+      "Validation éditoriale et conformité",
+      "Attribution marketing multi-touch"
+    ]
+  },
+  {
+    "slug": "conseil",
+    "title": "Conseil",
+    "intro": "Rendez votre expertise visible auprès des décideurs.",
+    "description": "Publiez des analyses, des guides et des références vérifiables pour aider les décideurs à évaluer votre expertise.",
+    "focus": [
+      "Contenus d'autorité et études sectorielles",
+      "Visibilité auprès des comités de direction",
+      "Suivi des prospects grands comptes"
+    ]
+  },
+  {
+    "slug": "immobilier",
+    "title": "Immobilier",
+    "intro": "Reliez la recherche locale aux mandats et aux ventes de prestige.",
+    "description": "Améliorez la visibilité de vos programmes neufs ou de vos biens d'exception sur les moteurs de recherche et les moteurs IA, avec des tunnels d'estimation performants.",
+    "focus": [
+      "Visibilité locale et géolocalisée",
+      "Présentation visuelle immersive",
+      "Qualification et routage réactif des leads"
+    ]
+  },
+  {
+    "slug": "industrie",
+    "title": "Industrie",
+    "intro": "Générez des consultations qualifiées pour vos équipements et solutions industrielles.",
+    "description": "Aidez les ingénieurs et acheteurs industriels à trouver vos spécifications techniques, vos catalogues produits et vos démonstrations sur les canaux de recherche modernes.",
+    "focus": [
+      "Catalogues et données techniques structurées",
+      "Cycles d'achat B2B longs et comités d'experts",
+      "Génération de demandes de devis qualifiées"
+    ]
+  },
+  {
+    "slug": "coaching-formation",
+    "title": "Coaching & Formation",
+    "intro": "Aidez les futurs participants à choisir votre programme.",
+    "description": "Guidez vos futurs apprenants de la découverte à l'inscription grâce à des webinaires, des séquences d'automatisation bienveillantes et des témoignages inspirants.",
+    "focus": [
+      "Pages de programmes orientées conversion",
+      "Parcours d'inscription automatisés",
+      "Preuve sociale et valorisation des alumni"
+    ]
+  },
+  {
+    "slug": "commerce-logistique",
+    "title": "Commerce & Logistique",
+    "intro": "Accélérez vos flux de distribution et optimisez votre acquisition omnicanale.",
+    "description": "Alignez vos campagnes d'acquisition, la structuration de vos flux de produits et la fidélisation client pour maximiser la rentabilité de chaque transaction.",
+    "focus": [
+      "Optimisation des flux de catalogues produits",
+      "Acquisition performante multi-plateformes",
+      "Fidélisation et automatisation post-achat"
+    ]
+  }
+]

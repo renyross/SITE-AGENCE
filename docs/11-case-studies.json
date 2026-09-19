@@ -1,0 +1,78 @@
+[
+  {
+    "slug": "client-a-seo-geo",
+    "client": "CLIENT A",
+    "category": "SEO + GEO",
+    "title": "Connect search visibility to qualified demand.",
+    "context": "Illustrative B2B company with a growing service portfolio.",
+    "problem": "Key buying questions are poorly covered, and brand mentions in AI answers are not monitored.",
+    "strategy": "Audit technical foundations, map buying questions, improve service content and establish a repeatable AI citation review.",
+    "results": "Illustrative outcome: more relevant organic visits, more qualified enquiries and additional citations in the monitored sample.",
+    "metrics": [
+      {
+        "value": "+68%",
+        "label": "Organic traffic"
+      },
+      {
+        "value": "+42%",
+        "label": "Qualified leads"
+      },
+      {
+        "value": "12",
+        "label": "AI citations gained"
+      }
+    ],
+    "status": "demo",
+    "period": null,
+    "source": null,
+    "measurementNotes": "Fictional example. No baseline, measurement period or supporting client data supplied."
+  },
+  {
+    "slug": "client-b-ai-automation",
+    "client": "CLIENT B",
+    "category": "AI Automation",
+    "title": "Give the team more time for qualified leads.",
+    "context": "Illustrative service business managing inbound enquiries across several channels.",
+    "problem": "Manual data entry and inconsistent follow-up slow down lead handling.",
+    "strategy": "Connect the CRM, define qualification rules, automate follow-up and keep human review for exceptions.",
+    "results": "Illustrative outcome: less manual work and a higher share of enquiries converting at the measured funnel stage.",
+    "metrics": [
+      {
+        "value": "−45%",
+        "label": "Manual workload"
+      },
+      {
+        "value": "+31%",
+        "label": "Conversion rate"
+      }
+    ],
+    "status": "demo",
+    "period": null,
+    "source": null,
+    "measurementNotes": "Fictional example. No baseline, measurement period or supporting client data supplied."
+  },
+  {
+    "slug": "client-c-seo-content",
+    "client": "CLIENT C",
+    "category": "SEO + Content",
+    "title": "Build content around the questions buyers ask.",
+    "context": "Illustrative company with expertise that is not yet reflected in its website content.",
+    "problem": "Disconnected articles and weak internal links make priority topics hard to discover.",
+    "strategy": "Build topic clusters, refresh existing pages, improve internal links and develop expert-reviewed content.",
+    "results": "Illustrative outcome: more organic clicks and top-three positions for selected queries.",
+    "metrics": [
+      {
+        "value": "+112%",
+        "label": "Organic clicks"
+      },
+      {
+        "value": "Top 3",
+        "label": "Google positions"
+      }
+    ],
+    "status": "demo",
+    "period": null,
+    "source": null,
+    "measurementNotes": "Fictional example. No baseline, measurement period or supporting client data supplied."
+  }
+]

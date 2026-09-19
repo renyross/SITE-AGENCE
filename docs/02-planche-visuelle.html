@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Signal — Planche de direction artistique</title>
+<style>
+  :root { color-scheme: dark; --bg:#0B0B0D; --surface:#111114; --text:#F7F7F7; --muted:#9B9B9B; --accent:#C6F564; --line:#2B2B32; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font-family:Arial, sans-serif; }
+  main { max-width:1280px; margin:auto; padding:40px clamp(24px,6vw,88px) 72px; }
+  header { display:flex; justify-content:space-between; gap:24px; padding-bottom:28px; border-bottom:1px solid var(--line); }
+  .label { font-size:12px; letter-spacing:.13em; text-transform:uppercase; line-height:1.6; }
+  .muted { color:var(--muted); }
+  .mark { display:inline-block; width:10px; height:10px; background:var(--accent); margin-right:12px; }
+  .intro { padding:88px 0 64px; max-width:900px; }
+  h1 { font-size:clamp(44px,7.5vw,96px); line-height:1; letter-spacing:-.055em; margin:24px 0; font-weight:700; }
+  h1 span { color:var(--accent); }
+  p { font-size:17px; line-height:1.65; max-width:560px; }
+  h2 { font-size:13px; font-weight:400; text-transform:uppercase; letter-spacing:.12em; margin:0 0 24px; }
+  .palette { display:grid; grid-template-columns:repeat(5,1fr); gap:12px; margin-bottom:56px; }
+  .swatch { min-height:110px; border:1px solid var(--line); border-radius:12px; display:flex; align-items:end; padding:16px; font-size:12px; }
+  .grid { display:grid; grid-template-columns:1.25fr 1fr; gap:20px; }
+  .card { border:1px solid var(--line); background:var(--surface); border-radius:16px; padding:32px; transition:background .2s,border-color .2s; }
+  .card:hover { background:#19191E; border-color:#73737D; }
+  .card h3 { font-size:28px; letter-spacing:-.035em; margin:28px 0 12px; }
+  svg { width:100%; height:auto; display:block; margin-top:32px; }
+  .actions { display:flex; gap:12px; flex-wrap:wrap; margin-top:28px; }
+  button { border:1px solid #73737D; background:transparent; color:var(--text); padding:16px 20px; border-radius:8px; font:600 14px Arial,sans-serif; cursor:pointer; transition:background .2s; }
+  button.primary { background:var(--accent); border-color:var(--accent); color:var(--bg); }
+  button:hover { background:#19191E; }
+  button.primary:hover { background:#D6FF85; }
+  button:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }
+  footer { margin-top:56px; padding-top:24px; border-top:1px solid var(--line); font-size:13px; line-height:1.6; }
+  @media(max-width:640px) { .intro{padding:56px 0 40px} .palette{grid-template-columns:repeat(2,1fr)} .grid{grid-template-columns:1fr} .card{padding:24px} header{flex-direction:column;gap:8px} }
+  @media(prefers-reduced-motion:reduce) { *{transition:none!important} }
+</style>
+<main>
+  <header><div class="label"><span class="mark"></span>Direction artistique / Signal</div><div class="label muted">Point 02 — Proposition</div></header>
+  <section class="intro">
+    <div class="label muted">Visibilité · Précision · Croissance</div>
+    <h1>Une présence forte.<br><span>Un impact mesurable.</span></h1>
+    <p class="muted">Une toile sombre. Des repères nets. Une couleur qui attire le regard sur ce qui compte.</p>
+  </section>
+  <section aria-label="Palette principale">
+    <h2>01 / Palette</h2>
+    <div class="palette">
+      <div class="swatch" style="background:#0B0B0D">Fond · #0B0B0D</div>
+      <div class="swatch" style="background:#111114">Surface · #111114</div>
+      <div class="swatch" style="background:#F7F7F7;color:#0B0B0D">Blanc · #F7F7F7</div>
+      <div class="swatch" style="background:#9B9B9B;color:#0B0B0D">Gris · #9B9B9B</div>
+      <div class="swatch" style="background:#C6F564;color:#0B0B0D">Accent · #C6F564</div>
+    </div>
+  </section>
+  <h2>02 / Surfaces et langage graphique</h2>
+  <div class="grid">
+    <section class="card">
+      <div class="label muted"><span class="mark"></span>Le signal devient visible</div>
+      <h3>Relier chaque point.</h3>
+      <p class="muted">Des tracés sobres et des graduations fines donnent une expression graphique à la mesure.</p>
+      <svg viewBox="0 0 500 130" role="img" aria-label="Motif décoratif de progression, sans données réelles">
+        <defs><pattern id="ticks" width="25" height="130" patternUnits="userSpaceOnUse"><path d="M0 110v8" stroke="#73737D"/></pattern></defs>
+        <rect width="500" height="130" fill="url(#ticks)"/>
+        <path d="M0 110H500" stroke="#2B2B32"/>
+        <path d="M0 94H95L170 73H260L345 32H480" stroke="#C6F564" stroke-width="2" fill="none"/>
+        <rect x="475" y="27" width="10" height="10" fill="#C6F564"/>
+      </svg>
+      <small class="muted">Motif illustratif — aucune donnée de performance.</small>
+    </section>
+    <section class="card">
+      <div class="label muted">Contraste et retenue</div>
+      <h3>Une action évidente.</h3>
+      <p class="muted">L’accent distingue l’action principale. Les surfaces, les bordures et les espacements structurent le reste.</p>
+      <div class="actions"><button class="primary" type="button">Bouton principal ↗</button><button type="button">Secondaire ↗</button></div>
+      <p class="muted" style="font-size:13px">Spécimens visuels : survolez les cartes et les boutons, ou utilisez Tab pour examiner le focus.</p>
+    </section>
+  </div>
+  <footer class="muted">Planche de validation du style visuel. Police système provisoire : choix typographique au point 3. Les boutons illustrent uniquement les états visuels.</footer>
+</main>
+</html>

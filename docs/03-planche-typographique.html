@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Signal — Typographie Manrope</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box} :root{color-scheme:dark;font-family:Manrope,Arial,sans-serif;background:#0B0B0D;color:#F7F7F7}
+body{margin:0} main{max-width:1400px;margin:auto;padding:32px clamp(20px,5vw,80px) 64px}
+header{display:flex;justify-content:space-between;gap:20px;border-bottom:1px solid #2B2B32;padding-bottom:24px}
+.label{font-size:.75rem;line-height:1.5;letter-spacing:.12em;text-transform:uppercase;font-weight:500}
+.muted{color:#9B9B9B}.accent{color:#C6F564}.intro{padding:72px 0}
+h1{font-size:clamp(4.5rem,2rem + 5vw,6rem);font-weight:700;line-height:1.06;letter-spacing:-.045em;max-width:17ch;margin:24px 0;text-wrap:balance}
+h2{font-size:clamp(2rem,1.25rem + 3vw,4rem);line-height:1.12;letter-spacing:-.035em;margin:20px 0;font-weight:700}
+h3{font-size:clamp(1.5rem,1rem + 1.5vw,2rem);line-height:1.2;letter-spacing:-.025em;margin:20px 0;font-weight:700}
+p{font-size:1.125rem;line-height:1.65;max-width:60ch}.lead{font-size:clamp(1.125rem,1rem + .4vw,1.375rem);line-height:1.5;letter-spacing:-.01em;max-width:48ch}
+.grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:24px}.card{background:#111114;border:1px solid #2B2B32;border-radius:16px;padding:clamp(20px,3vw,40px);min-width:0}
+.metric{font-size:clamp(3rem,2rem + 4vw,5.5rem);font-weight:800;line-height:1.08;letter-spacing:-.04em;font-variant-numeric:tabular-nums;margin:24px 0 8px}
+.caption{font-size:.875rem;line-height:1.5}.sample{margin-top:32px;padding-top:28px;border-top:1px solid #2B2B32}
+.mobile{max-width:375px;margin:28px auto 0;padding:24px;background:#0B0B0D;border:1px solid #73737D;border-radius:12px}
+.mobile-title{font-size:2.75rem;line-height:1.06;letter-spacing:-.045em;font-weight:700;margin:20px 0;overflow-wrap:break-word}.mobile p{font-size:1rem}
+footer{margin-top:48px;border-top:1px solid #2B2B32;padding-top:24px} #font-status{font-size:.875rem;letter-spacing:0;text-transform:none;line-height:1.5}
+@media(max-width:767px){header{flex-direction:column}.intro{padding:48px 0}h1{font-size:clamp(2.75rem,2rem + 3.125vw,3.5rem)}.grid{grid-template-columns:1fr}p{font-size:1rem}}
+</style>
+</head>
+<body>
+<main>
+<header><div class="label">Signal / Point 03 / Typographie</div><div id="font-status" class="muted" role="status">Manrope : chargement en cours…</div></header>
+<section class="intro">
+<div class="label accent">Manrope — Une famille, une identité</div>
+<h1>Votre prochain client doit pouvoir <span class="accent">vous trouver.</span></h1>
+<p class="lead muted">Des titres affirmés. Des textes faciles à lire. Une hiérarchie qui donne à chaque message sa juste place.</p>
+<div class="caption muted">Spécimen de titre · 44–56 px sur mobile · 72–96 px sur desktop</div>
+</section>
+<div class="grid">
+<section class="card">
+<div class="label muted">01 / Hiérarchie éditoriale</div>
+<h2>De la visibilité<br>à la croissance.</h2>
+<p class="muted">Nous associons référencement, contenu et data pour relier votre présence en ligne à vos objectifs commerciaux.</p>
+<div class="sample"><div class="label muted">Titre de carte / Graisse 700</div><h3>Être trouvé et cité.</h3><p class="muted">Une lecture claire commence par des mots simples et des lignes qui laissent respirer le contenu.</p></div>
+<div class="sample"><div class="label muted">Accents et caractères</div><p>À chaque étape, mesurez les progrès.<br>É • è • à • ç • œ • € • % • + • &amp;</p><p class="caption muted">400 Lecture · <span style="font-weight:500">500 Labels</span> · <span style="font-weight:600">600 Actions</span> · <strong>700 Titres</strong></p></div>
+</section>
+<section class="card">
+<div class="label muted">02 / Données et petit écran</div>
+<div class="metric accent">012345</div><div class="caption muted">Spécimen de chiffres tabulaires — aucune donnée client.</div>
+<div class="mobile"><div class="label accent">Spécimen mobile</div><div class="mobile-title">Une présence qui compte.</div><p class="muted">Des messages courts, une lecture confortable et des titres qui conservent leur présence.</p></div>
+</section>
+</div>
+<footer class="caption muted">Planche typographique uniquement. Manrope est chargée depuis Google Fonts pour cet aperçu ; une connexion Internet est nécessaire. La navigation sera définie au point 4.</footer>
+</main>
+<script>
+document.fonts.load('700 16px Manrope').then(function(fonts){document.getElementById('font-status').textContent=fonts.length ? 'Manrope chargée · titre en graisse 700' : 'Manrope indisponible — aperçu en Arial';}).catch(function(){document.getElementById('font-status').textContent='Manrope indisponible — aperçu en Arial';});
+</script>
+</body>
+</html>

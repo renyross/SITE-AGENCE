@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-19T07:34:59.330Z",
+  "base": "http://127.0.0.1:3107",
+  "browser": "153.0.8010.52",
+  "checks": [
+    "calculator counter reaches exact value with immediate accessible result",
+    "desktop reveal 420ms",
+    "marquee play and pause",
+    "pointer translation bounded to 3px",
+    "live reduced-motion toggle",
+    "mobile fade 180ms without translation",
+    "no-JS content and native navigation"
+  ],
+  "passed": true
+}

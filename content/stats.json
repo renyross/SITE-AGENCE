@@ -1,0 +1,42 @@
+
+[
+  {
+    "id": "ai-influence",
+    "value": null,
+    "prefix": "",
+    "suffix": "%",
+    "label": "Recherches influencées par l’IA",
+    "status": "pending",
+    "sourceUrl": null,
+    "sourceTitle": null,
+    "period": null,
+    "scope": null,
+    "note": "Source et périmètre de mesure à préciser."
+  },
+  {
+    "id": "platforms",
+    "value": 5,
+    "prefix": "",
+    "suffix": "",
+    "label": "Plateformes IA étudiées",
+    "status": "demo",
+    "sourceUrl": null,
+    "sourceTitle": null,
+    "period": null,
+    "scope": null,
+    "note": "Périmètre illustratif, à confirmer selon l’offre."
+  },
+  {
+    "id": "tracking",
+    "value": 24,
+    "prefix": "",
+    "suffix": "/7",
+    "label": "Suivi de visibilité",
+    "status": "demo",
+    "sourceUrl": null,
+    "sourceTitle": null,
+    "period": null,
+    "scope": null,
+    "note": "Exemple fictif, sans engagement de surveillance continue."
+  }
+]

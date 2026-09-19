@@ -1,0 +1,66 @@
+[
+  {
+    "name": "final-home-mobile",
+    "url": "http://127.0.0.1:3000/",
+    "date": "2026-09-18T21:49:03.566Z",
+    "scores": {
+      "performance": 94,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "lcpMs": 2921.8568,
+    "tbtMs": 101.50000000000045,
+    "cls": 0,
+    "transferBytes": 265468,
+    "warnings": []
+  },
+  {
+    "name": "home-desktop",
+    "url": "http://127.0.0.1:3000/",
+    "date": "2026-09-18T21:49:20.155Z",
+    "scores": {
+      "performance": 100,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "lcpMs": 644.6929,
+    "tbtMs": 1,
+    "cls": 0,
+    "transferBytes": 265468,
+    "warnings": []
+  },
+  {
+    "name": "service-mobile",
+    "url": "http://127.0.0.1:3000/services/strategie-conseil",
+    "date": "2026-09-18T21:49:35.624Z",
+    "scores": {
+      "performance": 87,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "lcpMs": 2714.6419,
+    "tbtMs": 379,
+    "cls": 0,
+    "transferBytes": 198091,
+    "warnings": []
+  },
+  {
+    "name": "article-mobile",
+    "url": "http://127.0.0.1:3000/blog/seo-and-ai-search-shared-foundations",
+    "date": "2026-09-18T21:49:49.974Z",
+    "scores": {
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "lcpMs": 2218.7644,
+    "tbtMs": 151,
+    "cls": 0,
+    "transferBytes": 197961,
+    "warnings": []
+  }
+]

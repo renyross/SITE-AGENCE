@@ -1,0 +1,32 @@
+[
+  {
+    "id": "testimonial-a",
+    "name": "Sample client A",
+    "company": "Example SaaS company",
+    "role": "Marketing Director",
+    "quote": "We finally had a shared view of our search priorities and a clear plan for the team to act on.",
+    "result": "Illustrative outcome: shared priorities and a coordinated roadmap.",
+    "status": "demo",
+    "video": null
+  },
+  {
+    "id": "testimonial-b",
+    "name": "Sample client B",
+    "company": "Example services company",
+    "role": "Head of Operations",
+    "quote": "Our follow-up process became easier to manage, with clear ownership and fewer repetitive steps.",
+    "result": "Illustrative outcome: a simpler, documented lead follow-up workflow.",
+    "status": "demo",
+    "video": null
+  },
+  {
+    "id": "testimonial-c",
+    "name": "Sample client C",
+    "company": "Example B2B company",
+    "role": "Growth Lead",
+    "quote": "The reporting helped us connect our content decisions to the questions our sales team heard every day.",
+    "result": "Illustrative outcome: closer alignment between content and sales.",
+    "status": "demo",
+    "video": null
+  }
+]

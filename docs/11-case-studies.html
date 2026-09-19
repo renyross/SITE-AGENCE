@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Signal — Case studies</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box} :root{color-scheme:dark;font-family:Manrope,Arial,sans-serif;background:#0B0B0D;color:#F7F7F7;scroll-padding-top:9rem}
+body{margin:0} a{color:inherit;text-decoration:none} a:focus-visible,summary:focus-visible{outline:2px solid #C6F564;outline-offset:5px;border-radius:4px}
+.skip{position:fixed;top:12px;left:16px;transform:translateY(-200%);z-index:100;background:#C6F564;color:#0B0B0D;padding:12px 20px}.skip:focus{transform:none}
+.site-header{position:sticky;top:0;z-index:10;background:#0B0B0D;border-bottom:1px solid #2B2B32}
+.bar{max-width:1440px;margin:auto;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:inline-flex;align-items:center;gap:10px;min-height:44px;font-weight:700;white-space:nowrap}.brand svg{width:28px;height:28px;flex-shrink:0}
+.desktop-nav,.actions{display:flex;align-items:center;gap:20px}.desktop-nav a{display:inline-flex;align-items:center;min-height:44px;color:#9B9B9B;font-size:.875rem;font-weight:600;white-space:nowrap}.desktop-nav a:hover{color:#F7F7F7}
+.actions{gap:10px}.button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:12px 16px;border:1px solid #73737D;border-radius:8px;font-size:.875rem;font-weight:600;text-align:center;transition:background .2s;line-height:1.4}.button:hover{background:#19191E}.primary{background:#C6F564;border-color:#C6F564;color:#0B0B0D}.primary:hover{background:#D6FF85}
+.compact{display:none}.compact-actions{display:flex;align-items:center;gap:12px}.compact-brand-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 20px}
+details summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;min-height:44px;min-width:44px;font-size:.875rem;font-weight:600}summary::-webkit-details-marker{display:none}
+.menu-icon{width:18px;height:12px;display:inline-block;border-top:1px solid currentColor;border-bottom:1px solid currentColor}details[open] .menu-icon{height:1px;border-bottom:0}
+.compact{grid-template-columns:minmax(0,1fr) auto;align-items:start;padding:12px 20px;gap:12px}.compact-brand-row{display:contents}.compact-actions{display:grid;grid-template-columns:auto auto;align-items:center}.compact details{display:contents}.compact summary{grid-column:2;grid-row:1}.compact-actions>.button{grid-column:1;grid-row:1}.panel{grid-column:1 / -1;background:#111114;border:1px solid #2B2B32;border-radius:12px;padding:20px;max-height:calc(100dvh - 100px);overflow:auto}.compact:has(details[open]){grid-template-columns:1fr}.compact:has(details[open])>.compact-brand-row>.brand{position:absolute;left:20px;top:12px}.compact:has(details[open]) .compact-actions{grid-template-columns:1fr auto auto}.compact:has(details[open]) .compact-actions>.button{grid-column:2}.compact:has(details[open]) summary{grid-column:3}.site-header{position:sticky}
+.panel nav{display:grid}.panel nav a{padding:12px 4px;min-height:48px;font-size:1.125rem;font-weight:600;border-bottom:1px solid #2B2B32}.panel nav a:hover{color:#C6F564}.panel .actions{display:grid;margin-top:24px}
+main{max-width:1200px;margin:auto;padding:64px 24px}.label{font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:#C6F564}h1{font-size:clamp(2.5rem,2rem + 2vw,4rem);line-height:1.1;letter-spacing:-.04em;max-width:18ch;margin:24px 0}p{color:#9B9B9B;font-size:1rem;line-height:1.65;max-width:65ch}
+.demo{margin-top:32px;padding:32px;border:1px solid #2B2B32;border-radius:12px;background:#111114;scroll-margin-top:1rem}.demo:target{border-color:#C6F564}h2{font-size:1.5rem;margin:0 0 12px;letter-spacing:-.025em}.route{font-size:.875rem;color:#C6F564;overflow-wrap:anywhere}
+@media(max-width:79.999rem){.bar{display:none}.compact{display:grid}}
+@media(max-width:479px){.brand-text{display:none}}
+@media(max-width:359px){.compact{padding-inline:16px}.compact:has(details[open])>.compact-brand-row>.brand{left:16px}.compact-actions{gap:10px}.button{padding-inline:12px}.summary-label{display:none}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+main{max-width:1440px;padding:0 clamp(20px,5vw,80px) 64px}
+.hero{padding:clamp(64px,8vw,112px) 0 48px;position:relative}
+.hero-layout{display:grid;grid-template-columns:minmax(0,1fr) 180px;gap:40px;align-items:center}
+.hero h1{font-size:clamp(4.5rem,2rem + 5vw,6rem);line-height:1.06;letter-spacing:-.045em;max-width:15ch;margin:28px 0}
+.hero h1 span{color:#C6F564}.hero .lead{font-size:clamp(1.125rem,1rem + .4vw,1.375rem);line-height:1.5;max-width:48ch;margin:0}
+.hero .label{display:flex;align-items:center;gap:12px;font-weight:500}.hero .label::before{content:'';width:8px;height:8px;background:#C6F564;flex-shrink:0}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:36px}.hero-actions .button{min-height:52px;padding:16px 22px}.hero-actions .arrow{margin-left:20px}
+.signal{width:100%;height:auto;opacity:.8}
+.platforms{border-top:1px solid #2B2B32;border-bottom:1px solid #2B2B32;padding:24px 0;margin-top:64px}
+.platforms-heading{display:inline-block;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:#9B9B9B;margin:0 24px 16px 0}
+.motion-control{display:inline-flex;gap:8px;align-items:center;min-height:44px;font-size:.875rem;color:#9B9B9B;cursor:pointer}.motion-control input{width:18px;height:18px;accent-color:#C6F564}.motion-control input:focus-visible{outline:2px solid #C6F564;outline-offset:4px}
+.ticker{overflow:hidden}.track{display:flex;width:max-content;animation:platform-scroll 36s linear infinite;animation-play-state:paused}.platforms:has(input:checked) .track{animation-play-state:running}.ticker:hover .track{animation-play-state:paused!important}
+.platform-list{display:flex;align-items:center;gap:48px;padding:0 48px 0 0;margin:0;list-style:none;flex-shrink:0}.platform-list li{font-size:1.5rem;font-weight:600;white-space:nowrap;letter-spacing:-.025em}.platform-list li::before{content:'+';color:#73737D;font-size:1rem;margin-right:18px}
+@keyframes platform-scroll{to{transform:translateX(-50%)}}
+.preview-notes{margin-top:36px}.preview-notes>summary{justify-content:flex-start;color:#9B9B9B;font-size:.875rem}.preview-notes>summary::before{content:'+';margin-right:8px}
+@media(max-width:63.999rem){.hero-layout{grid-template-columns:1fr}.signal{display:none}}
+@media(max-width:47.999rem){.hero h1{font-size:clamp(2.75rem,2rem + 3.125vw,3.5rem)}.hero{padding-top:56px}.hero-actions{flex-direction:column;align-items:stretch}.platforms{margin-top:48px}.platform-list{gap:32px;padding-right:32px}.platform-list li{font-size:1.125rem}}
+@media(prefers-reduced-motion:reduce){.track{animation:none;transform:none;width:auto}.platform-list{flex-wrap:wrap;gap:20px 28px;padding:0}.platform-list[aria-hidden]{display:none}.motion-control{display:none}.ticker{overflow:visible}}
+
+
+.problem{padding:clamp(64px,9vw,128px) 0;border-bottom:1px solid #2B2B32}
+.problem-intro{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,5vw,80px)}
+.problem h2{font-size:clamp(2rem,1.25rem + 3vw,4rem);line-height:1.12;letter-spacing:-.035em;max-width:10ch;margin:20px 0 0}
+.problem-copy>p{font-size:clamp(1.125rem,1rem + .4vw,1.375rem);line-height:1.5;margin-top:0}
+.search-behaviors{list-style:none;padding:0;margin:28px 0}.search-behaviors li{padding:16px 0;border-bottom:1px solid #2B2B32;font-size:clamp(1.25rem,1rem + 1vw,1.75rem);letter-spacing:-.025em}.search-behaviors span{color:#C6F564}
+.problem-copy .closing{color:#F7F7F7;margin-top:28px}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:40px 0 0;padding:0;list-style:none}.stat{padding:clamp(20px,2.5vw,36px);border:1px solid #2B2B32;background:#111114;border-radius:12px;min-width:0}.stat-value{font-size:clamp(3rem,2rem + 4vw,5.5rem);font-weight:700;line-height:1.08;letter-spacing:-.04em;font-variant-numeric:tabular-nums;color:#C6F564;margin:24px 0 16px;white-space:nowrap}.stat h3{font-size:1rem;font-weight:600;line-height:1.5;margin:0}.stat p{font-size:.875rem;margin-bottom:0}.stat-status{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:#9B9B9B}.stat-note{font-size:.875rem;margin:40px 0 0;max-width:75ch}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+@media(max-width:63.999rem){.problem-intro{grid-template-columns:1fr}.stats{grid-template-columns:1fr}.stat-value{font-size:clamp(3rem,2rem + 4vw,4rem)}}
+
+
+.services-section{padding:clamp(64px,9vw,128px) 0;border-bottom:1px solid #2B2B32;scroll-margin-top:1rem}
+.services-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:32px;margin-bottom:48px}
+.services-heading h2{font-size:clamp(2rem,1.25rem + 3vw,4rem);line-height:1.12;letter-spacing:-.035em;margin:20px 0 0;max-width:20ch}
+.services-heading h2 span{color:#9B9B9B}.services-heading>p{max-width:32ch;margin:0;line-height:1.65}
+.service-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;list-style:none;padding:0;margin:0}
+.service-card{height:100%;display:flex;flex-direction:column;padding:clamp(24px,3vw,40px);border:1px solid #2B2B32;border-radius:12px;background:#111114;transition:background .22s,border-color .22s}
+.service-card:hover,.service-card:focus-within{background:#19191E;border-color:#73737D}
+.service-index{font-size:.75rem;letter-spacing:.12em;color:#9B9B9B;display:flex;justify-content:space-between;align-items:center}.service-mark{width:8px;height:8px;background:#73737D;transition:background .22s}.service-card:hover .service-mark,.service-card:focus-within .service-mark{background:#C6F564}
+.service-card h3{font-size:clamp(1.5rem,1rem + 1.5vw,2rem);line-height:1.2;letter-spacing:-.025em;margin:28px 0 16px;font-weight:700}.service-promise{font-size:1.125rem;line-height:1.5;max-width:38ch;margin:0 0 28px}
+.service-list{display:flex;flex-wrap:wrap;gap:10px 20px;padding:24px 0 0;list-style:none;border-top:1px solid #2B2B32;margin:auto 0 0}.service-list li{font-size:.875rem;line-height:1.5;color:#9B9B9B}.service-list li::before{content:'+';color:#C6F564;margin-right:8px}
+.services-cta{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-top:32px;padding-top:24px}.services-cta p{margin:0}.services-cta .button{flex-shrink:0;min-height:52px}
+@media(max-width:47.999rem){.services-heading{display:block;margin-bottom:32px}.services-heading>p{margin-top:24px}.service-grid{grid-template-columns:1fr}.services-cta{align-items:stretch;flex-direction:column}.service-promise{font-size:1rem}}
+@media(prefers-reduced-motion:reduce){.service-card,.service-mark{transition:none}}
+
+
+.ai-visibility{padding:clamp(64px,9vw,128px) 0;border-bottom:1px solid #2B2B32}
+.visibility-layout{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(32px,5vw,72px);align-items:center}
+.visibility-copy h2{font-size:clamp(2rem,1.25rem + 3vw,4rem);line-height:1.12;letter-spacing:-.035em;margin:20px 0 24px;max-width:15ch}.visibility-copy>p{font-size:1.125rem;line-height:1.6;max-width:40ch}.visibility-copy .button{min-height:52px;margin-top:16px}
+.visibility-platforms{list-style:none;padding:0;margin:28px 0;display:flex;gap:12px 20px;flex-wrap:wrap}.visibility-platforms li{font-size:.875rem;color:#F7F7F7}.visibility-platforms li::before{content:'+';color:#C6F564;margin-right:8px}
+.visibility-dashboard{background:#111114;border:1px solid #2B2B32;border-radius:16px;padding:clamp(20px,3vw,36px);margin:0;min-width:0}
+.dashboard-top{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;padding-bottom:24px;border-bottom:1px solid #2B2B32}.dashboard-name{font-size:.875rem;font-weight:600}.demo-badge{font-size:.75rem;color:#C6F564;border:1px solid #73737D;padding:6px 10px;border-radius:6px;line-height:1.5}
+.visibility-dashboard figcaption{font-size:.875rem;color:#9B9B9B;line-height:1.5;margin-top:20px}.score-heading{font-size:.875rem;color:#9B9B9B;margin:28px 0 12px}.score-value{font-size:clamp(3rem,2rem + 4vw,5.5rem);line-height:1.08;letter-spacing:-.04em;font-weight:700;font-variant-numeric:tabular-nums}.score-value span{font-size:1.5rem;color:#9B9B9B;letter-spacing:-.02em}
+.score-track{height:6px;background:#2B2B32;border-radius:3px;margin:24px 0 32px}.score-fill{height:100%;width:72%;background:#C6F564;border-radius:3px}
+.visibility-metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));margin:0;gap:0 24px}.visibility-metrics>div{border-top:1px solid #2B2B32;padding:24px 0}.visibility-metrics dt{font-size:.875rem;color:#9B9B9B;line-height:1.5}.visibility-metrics dd{margin:12px 0 0;font-size:clamp(1.75rem,1.25rem + 1.5vw,2.5rem);font-weight:700;line-height:1.2;letter-spacing:-.025em;font-variant-numeric:tabular-nums}.visibility-metrics dd small{display:block;font-size:.875rem;font-weight:400;letter-spacing:0;color:#9B9B9B;margin-top:8px}.positive{color:#C6F564}
+@media(max-width:63.999rem){.visibility-layout{grid-template-columns:1fr}.visibility-copy h2{max-width:20ch}.visibility-copy>p{max-width:55ch}}
+@media(max-width:359px){.visibility-metrics{grid-template-columns:1fr}.visibility-copy .button{display:flex;width:100%}}
+
+
+.calculator{padding:clamp(64px,9vw,128px) 0;border-bottom:1px solid #2B2B32}.calculator h2{font-size:clamp(2rem,1.25rem + 3vw,4rem);line-height:1.12;letter-spacing:-.035em;max-width:22ch;margin:20px 0 24px}.calculator-intro{max-width:65ch;margin-bottom:36px}
+.calc-layout{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}.calc-panel{background:#111114;border:1px solid #2B2B32;border-radius:16px;padding:clamp(20px,3vw,36px);min-width:0}.calc-fields{display:grid;grid-template-columns:1fr 1fr;gap:24px 20px}.calc-field{display:flex;flex-direction:column;gap:10px}.calc-field:last-child{grid-column:1/-1}.calc-field label,.report-form label{font-size:.875rem;font-weight:600;line-height:1.5}.calc-field input,.report-form input{width:100%;min-width:0;min-height:48px;background:#0B0B0D;border:1px solid #73737D;border-radius:8px;color:#F7F7F7;font:inherit;padding:12px}.calc-field small{font-size:.75rem;color:#9B9B9B;line-height:1.5}.calc-field input:focus-visible,.report-form input:focus-visible,.calculator button:focus-visible{outline:2px solid #C6F564;outline-offset:4px}.calculator button{font-family:inherit;cursor:pointer}.calculator [hidden]{display:none!important}.calc-results{margin:0}.calc-results>div{padding:24px 0;border-bottom:1px solid #2B2B32}.calc-results dt{font-size:.875rem;color:#9B9B9B;line-height:1.5}.calc-results dd{font-size:clamp(2rem,1.5rem + 2vw,3.5rem);font-weight:700;letter-spacing:-.035em;line-height:1.15;margin:10px 0 0;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}.calc-results>div:last-child dd{color:#C6F564}.calc-disclaimer,.calc-error{font-size:.875rem;line-height:1.6}.calc-error{color:#F7F7F7}.calc-panel>.button{margin-top:12px;min-height:52px;width:100%}.calc-method{margin-top:24px;border-top:1px solid #2B2B32;padding-top:16px}.calc-method summary{justify-content:flex-start;text-decoration:underline;text-underline-offset:4px}.calc-method p{font-size:.875rem}.report-form{border-top:1px solid #73737D;margin-top:24px;padding-top:24px}.report-form input{margin:12px 0}.report-form .button{width:100%;min-height:48px}.report-form a{display:inline-block;text-decoration:underline;text-underline-offset:4px;margin-top:16px;font-size:.875rem}.report-form p{font-size:.875rem}
+@media(max-width:63.999rem){.calc-layout{grid-template-columns:1fr}}@media(max-width:479px){.calc-fields{grid-template-columns:1fr}}
+
+
+.methodology{padding:clamp(64px,9vw,128px) 0;border-bottom:1px solid #2B2B32}.method-layout{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(32px,6vw,88px);align-items:start}.method-heading h2{font-size:clamp(2rem,1.25rem + 3vw,4rem);line-height:1.12;letter-spacing:-.035em;margin:20px 0 24px}.method-heading p{max-width:32ch;font-size:1.125rem;line-height:1.6}.method-heading .button{margin-top:16px;min-height:52px}
+.method-steps{list-style:none;margin:0;padding:0 0 0 32px;position:relative}.method-steps::before{content:'';position:absolute;left:5px;top:0;bottom:0;width:1px;background:#2B2B32}.method-step{position:relative;padding:0 0 40px}.method-step:last-child{padding-bottom:0}.method-step::before{content:'';position:absolute;left:-31px;top:8px;width:9px;height:9px;background:#C6F564;z-index:1}.method-step:not(:last-child)::after{content:'';position:absolute;left:-27px;top:8px;bottom:-8px;width:1px;background:#C6F564;transform-origin:top;transform:scaleY(1)}
+.method-card{padding:0 0 32px;border-bottom:1px solid #2B2B32}.method-step:last-child .method-card{border-bottom:0;padding-bottom:0}.method-number{font-size:.875rem;color:#C6F564;font-variant-numeric:tabular-nums;letter-spacing:.1em}.method-card h3{font-size:clamp(1.5rem,1rem + 1.5vw,2rem);line-height:1.2;letter-spacing:-.025em;margin:16px 0}.method-card p{font-size:1.125rem;line-height:1.6;max-width:45ch;margin:0}.method-deliverable{margin-top:20px!important;font-size:.875rem!important;color:#F7F7F7}.method-deliverable span{color:#9B9B9B}
+@media(prefers-reduced-motion:no-preference){.method-steps.is-enhanced .method-step::after{transform:scaleY(0);transition:transform .65s ease}.method-steps.is-enhanced .method-step.is-seen::after{transform:scaleY(1)}.method-steps.is-enhanced .method-step::before{background:#73737D;transition:background .25s}.method-steps.is-enhanced .method-step.is-seen::before{background:#C6F564}}
+@media(max-width:63.999rem){.method-layout{grid-template-columns:1fr}.method-heading p{max-width:50ch}.method-steps{margin-top:16px}}@media(max-width:47.999rem){.method-card p{font-size:1rem}.method-heading .button{display:flex;width:100%}}
+
+
+.case-section{padding:clamp(64px,9vw,128px) 0;border-bottom:1px solid #2B2B32;scroll-margin-top:1rem}.case-section>h2{font-size:clamp(2rem,1.25rem + 3vw,4rem);line-height:1.12;letter-spacing:-.035em;margin:20px 0 24px}.case-intro{max-width:65ch;margin-bottom:36px}.case-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;list-style:none;padding:0;margin:0}.case-card{height:100%;display:flex;flex-direction:column;padding:clamp(20px,2.5vw,32px);border:1px solid #2B2B32;border-radius:12px;background:#111114;min-width:0;transition:background .22s,border-color .22s}.case-card:hover,.case-card:focus-within{background:#19191E;border-color:#73737D}.case-category{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:#C6F564;margin:20px 0 12px}.case-card h3{font-size:1.5rem;line-height:1.2;letter-spacing:-.025em;margin:0 0 20px}.case-client{font-size:.875rem;color:#9B9B9B;margin:20px 0 0}.case-metrics{margin:auto 0 24px}.case-metrics>div{display:flex;flex-direction:column-reverse;gap:8px;border-top:1px solid #2B2B32;padding-top:20px;margin-top:20px}.case-metrics dt{font-size:.875rem;line-height:1.5;color:#9B9B9B}.case-metrics dd{font-size:clamp(2rem,1.5rem + 2vw,3.5rem);letter-spacing:-.035em;font-weight:700;line-height:1.1;margin:0;color:#C6F564;font-variant-numeric:tabular-nums}.case-card>.button{margin-top:8px;min-height:48px}.case-details{margin-top:24px;border:1px solid #2B2B32;border-radius:12px;padding:clamp(20px,3vw,36px);scroll-margin-top:1rem}.case-details:target{border-color:#C6F564}.case-details>summary{justify-content:space-between;gap:16px;font-size:1.125rem;font-weight:600;text-align:left;min-height:48px}.case-details>summary::after{content:'+';color:#C6F564}.case-details[open]>summary::after{content:'−'}.case-detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px 40px;margin-top:28px}.case-detail-grid h4{font-size:1rem;margin:0 0 12px}.case-detail-grid p{font-size:1rem;margin:0}.case-evidence{margin-top:24px;padding-top:20px;border-top:1px solid #2B2B32;font-size:.875rem}.case-details .button{margin-top:16px;min-height:48px}
+@media(max-width:63.999rem){.case-grid{grid-template-columns:1fr}.case-metrics{display:flex;flex-wrap:wrap;gap:24px;margin-top:0}.case-metrics>div{flex:1 1 140px}}@media(max-width:47.999rem){.case-detail-grid{grid-template-columns:1fr}}@media(prefers-reduced-motion:reduce){.case-card{transition:none}}
+
+</style>
+</head>
+<body>
+<a class="skip" href="#content">Aller au contenu</a>
+<header class="site-header">
+<div class="bar">
+<a class="brand" href="#content" aria-label="Nom agence — accueil"><svg viewBox="0 0 28 28" aria-hidden="true"><path d="M2 24V14h9V5h15" fill="none" stroke="#F7F7F7" stroke-width="2"/><path fill="#C6F564" d="M20 2h7v7h-7z"/></svg><span>Nom agence</span></a>
+<nav class="desktop-nav" aria-label="Navigation principale" lang="en"><a href="#services">Services</a><a href="#solutions">Solutions</a><a href="#industries">Industries</a><a href="#case-studies">Case Studies</a><a href="#insights">Insights</a><a href="#about">About</a></nav>
+<div class="actions" lang="en"><a class="button primary" href="#audit">Free AI Visibility Audit</a><a class="button" href="#call">Book a Strategy Call</a></div>
+</div>
+<div class="compact">
+<div class="compact-brand-row">
+<a class="brand" href="#content" aria-label="Nom agence — accueil"><svg viewBox="0 0 28 28" aria-hidden="true"><path d="M2 24V14h9V5h15" fill="none" stroke="#F7F7F7" stroke-width="2"/><path fill="#C6F564" d="M20 2h7v7h-7z"/></svg><span class="brand-text">Nom agence</span></a>
+<div class="compact-actions"><a class="button primary" href="#audit" lang="en" aria-label="Free audit — Free AI Visibility Audit">Free audit</a><details id="mobile-menu"><summary aria-controls="mobile-panel" aria-label="Menu principal"><span class="summary-label">Menu</span><span class="menu-icon" aria-hidden="true"></span></summary><div class="panel" id="mobile-panel"><nav aria-label="Navigation principale mobile" lang="en"><a href="#services">Services</a><a href="#solutions">Solutions</a><a href="#industries">Industries</a><a href="#case-studies">Case Studies</a><a href="#insights">Insights</a><a href="#about">About</a></nav><div class="actions" lang="en"><a class="button primary" href="#audit">Free AI Visibility Audit</a><a class="button" href="#call">Book a Strategy Call</a></div></div></details></div>
+</div>
+</div>
+</header>
+<main id="content" tabindex="-1">
+
+<section class="hero" lang="en" aria-labelledby="hero-title">
+<div class="hero-layout"><div>
+<div class="label">AI-Native Marketing Agency</div>
+<h1 id="hero-title">Grow where people <span>search next.</span></h1>
+<p class="lead">We combine SEO, GEO, AI Search, content, automation and data to help brands get discovered on Google, ChatGPT, Gemini, Claude and Perplexity.</p>
+<div class="hero-actions"><a class="button primary" href="#audit">Get a Free AI Visibility Audit <span class="arrow" aria-hidden="true">↗</span></a><a class="button" href="#call">Book a Strategy Call <span class="arrow" aria-hidden="true">↗</span></a></div>
+</div>
+<svg class="signal" viewBox="0 0 180 350" aria-hidden="true"><defs><pattern id="ruler" width="180" height="25" patternUnits="userSpaceOnUse"><path d="M150 0h12" stroke="#73737D"/></pattern></defs><rect width="180" height="350" fill="url(#ruler)"/><path d="M156 0v350M0 300h180" stroke="#2B2B32"/><path d="M12 310v-90l48-40v-70l56-48h40" fill="none" stroke="#C6F564" stroke-width="2"/><path d="M151 57h10v10h-10z" fill="#C6F564"/><circle cx="12" cy="310" r="4" fill="#0B0B0D" stroke="#C6F564"/></svg>
+</div>
+<div class="platforms"><p class="platforms-heading">Visibility across search &amp; social</p><label class="motion-control"><input type="checkbox" checked> Animate platform list</label><div class="ticker"><div class="track">
+<ul class="platform-list" aria-label="Platforms"><li>Google</li><li>ChatGPT</li><li>Gemini</li><li>Claude</li><li>Perplexity</li><li>Meta</li><li>LinkedIn</li></ul><ul class="platform-list" aria-hidden="true"><li>Google</li><li>ChatGPT</li><li>Gemini</li><li>Claude</li><li>Perplexity</li><li>Meta</li><li>LinkedIn</li></ul>
+</div></div></div>
+</section>
+
+<section class="problem" lang="en" aria-labelledby="problem-title">
+<div class="problem-intro"><div><div class="label">01 / The new search journey</div><h2 id="problem-title">Search has changed.</h2></div><div class="problem-copy"><p>Your customers no longer search only on Google.</p><ul class="search-behaviors"><li>They ask <span>ChatGPT.</span></li><li>They compare with <span>Gemini.</span></li><li>They validate with <span>Perplexity.</span></li></ul><p class="closing">Your brand needs to exist everywhere decisions are made.</p></div></div>
+<p class="stat-note">Prototype figures — illustrative values, not verified results or confirmed service commitments.</p><ul class="stats" id="problem-stats"></ul>
+<noscript><p>Statistics pending validation: AI influence requires a source; platform coverage and monitoring availability remain to be confirmed.</p></noscript>
+</section>
+
+<section class="services-section" id="services" tabindex="-1" lang="en" aria-labelledby="services-title">
+<div class="services-heading"><div><div class="label">02 / Connected capabilities</div><h2 id="services-title">One growth system.<br><span>Multiple capabilities.</span></h2></div><p>Connect visibility, content, data and execution around your business goals.</p></div>
+<ul class="service-grid"><li><article class="service-card" aria-labelledby="service-1"><div class="service-index"><span>SERVICE 01</span><span class="service-mark" aria-hidden="true"></span></div><h3 id="service-1">SEO &amp; Organic Growth</h3><p class="service-promise">Bring more of the right customers to your website.</p><ul class="service-list"><li>Technical SEO</li><li>Semantic SEO</li><li>Local SEO</li><li>Content Optimization</li><li>Link Building</li></ul></article></li>
+<li><article class="service-card" aria-labelledby="service-2"><div class="service-index"><span>SERVICE 02</span><span class="service-mark" aria-hidden="true"></span></div><h3 id="service-2">GEO &amp; AI Search</h3><p class="service-promise">Build a brand that AI search can find, understand and cite.</p><ul class="service-list"><li>Generative Engine Optimization</li><li>Answer Engine Optimization</li><li>AI Citation Tracking</li><li>Entity Optimization</li><li>Knowledge Graph</li><li>LLM Visibility</li></ul></article></li>
+<li><article class="service-card" aria-labelledby="service-3"><div class="service-index"><span>SERVICE 03</span><span class="service-mark" aria-hidden="true"></span></div><h3 id="service-3">AI Marketing Automation</h3><p class="service-promise">Reduce manual work and follow up with leads faster.</p><ul class="service-list"><li>AI Agents</li><li>CRM Automation</li><li>Lead Qualification</li><li>Email Automation</li><li>n8n</li><li>Make</li><li>Zapier</li></ul></article></li>
+<li><article class="service-card" aria-labelledby="service-4"><div class="service-index"><span>SERVICE 04</span><span class="service-mark" aria-hidden="true"></span></div><h3 id="service-4">Content &amp; AI Content</h3><p class="service-promise">Answer buying questions with content that earns trust.</p><ul class="service-list"><li>Content Strategy</li><li>AI-assisted content</li><li>Topic clusters</li><li>Editorial systems</li><li>Thought leadership</li></ul></article></li>
+<li><article class="service-card" aria-labelledby="service-5"><div class="service-index"><span>SERVICE 05</span><span class="service-mark" aria-hidden="true"></span></div><h3 id="service-5">Paid Acquisition</h3><p class="service-promise">Focus your ad spend on qualified demand.</p><ul class="service-list"><li>Google Ads</li><li>Meta Ads</li><li>LinkedIn Ads</li><li>Performance campaigns</li><li>Retargeting</li></ul></article></li>
+<li><article class="service-card" aria-labelledby="service-6"><div class="service-index"><span>SERVICE 06</span><span class="service-mark" aria-hidden="true"></span></div><h3 id="service-6">Data &amp; Analytics</h3><p class="service-promise">See which marketing actions contribute to growth.</p><ul class="service-list"><li>GA4</li><li>Looker Studio</li><li>Search Console</li><li>Attribution</li><li>Dashboards</li><li>Marketing intelligence</li></ul></article></li>
+<li><article class="service-card" aria-labelledby="service-7"><div class="service-index"><span>SERVICE 07</span><span class="service-mark" aria-hidden="true"></span></div><h3 id="service-7">CRO</h3><p class="service-promise">Turn more visits into meaningful customer actions.</p><ul class="service-list"><li>Landing pages</li><li>A/B Testing</li><li>Funnel Optimization</li><li>UX optimization</li></ul></article></li>
+<li><article class="service-card" aria-labelledby="service-8"><div class="service-index"><span>SERVICE 08</span><span class="service-mark" aria-hidden="true"></span></div><h3 id="service-8">AI Strategy</h3><p class="service-promise">Choose where AI can create measurable business value.</p><ul class="service-list"><li>AI Audit</li><li>AI Roadmap</li><li>AI implementation</li><li>AI governance</li><li>Marketing transformation</li></ul></article></li></ul>
+<div class="services-cta"><p>Not sure where to start? Find your visibility gaps.</p><a class="button primary" href="#audit">Get a Free AI Visibility Audit <span aria-hidden="true">&nbsp;↗</span></a></div>
+</section>
+
+<section class="ai-visibility" id="ai-visibility" lang="en" aria-labelledby="visibility-title">
+<div class="visibility-layout">
+<div class="visibility-copy"><div class="label">03 / Beyond rankings</div><h2 id="visibility-title">Are AI engines recommending your brand?</h2><p>See where your brand appears, where competitors get cited and which gaps deserve your attention.</p><ul class="visibility-platforms" aria-label="Search and AI platforms"><li>Google</li><li>ChatGPT</li><li>Claude</li><li>Gemini</li><li>Perplexity</li></ul><a class="button primary" href="#audit">Run my AI Visibility Audit <span aria-hidden="true">&nbsp;↗</span></a></div>
+<figure class="visibility-dashboard" aria-labelledby="dashboard-title" aria-describedby="dashboard-disclaimer">
+<div class="dashboard-top"><span class="dashboard-name" id="dashboard-title">AI visibility overview</span><span class="demo-badge">Demo · Fictional data</span></div>
+<div class="score-heading">AI Visibility Score</div><div class="score-value">72<span>/100</span></div><div class="score-track" aria-hidden="true"><div class="score-fill"></div></div>
+<dl class="visibility-metrics"><div><dt>ChatGPT Mentions</dt><dd class="positive">+38%<small>Illustrative change</small></dd></div><div><dt>Perplexity Citations</dt><dd class="positive">+24%<small>Illustrative change</small></dd></div><div><dt>Google AI Overview Presence</dt><dd>18%<small>Illustrative presence rate</small></dd></div><div><dt>Competitor Gap</dt><dd>12<small>opportunities</small></dd></div></dl>
+<figcaption id="dashboard-disclaimer">Illustrative dashboard. These figures are fictional, not client results. No live platform data is connected.</figcaption>
+</figure>
+</div>
+</section>
+
+<section class="calculator" id="growth-calculator" lang="en" aria-labelledby="calculator-title"><div class="label">04 / Explore your growth potential</div><h2 id="calculator-title">See how much growth you’re leaving on the table.</h2><p class="calculator-intro">Explore an illustrative scenario using your own numbers. These estimates are assumptions, not measured losses or a revenue forecast.</p><noscript><p>Enable JavaScript to use the calculator. No estimate is available without it.</p></noscript><div class="calc-layout"><form class="calc-panel" id="growth-inputs" aria-label="Growth scenario inputs"><div class="calc-fields"><div class="calc-field"><label for="calc-traffic">Monthly website traffic</label><input id="calc-traffic" name="traffic" type="number" inputmode="decimal" value="10000" min="0" max="100000000" step="1" required aria-describedby="hint-traffic"><small id="hint-traffic">Visits per month.</small></div><div class="calc-field"><label for="calc-conversion">Conversion rate (%)</label><input id="calc-conversion" name="conversion" type="number" inputmode="decimal" value="2" min="0" max="100" step="0.01" required aria-describedby="hint-conversion"><small id="hint-conversion">Share of visits that become customers.</small></div><div class="calc-field"><label for="calc-value">Average customer value (€)</label><input id="calc-value" name="value" type="number" inputmode="decimal" value="500" min="0" max="100000000" step="0.01" required aria-describedby="hint-value"><small id="hint-value">Revenue per acquired customer.</small></div><div class="calc-field"><label for="calc-visibility">AI visibility score</label><input id="calc-visibility" name="visibility" type="number" inputmode="decimal" value="40" min="0" max="100" step="1" required aria-describedby="hint-visibility"><small id="hint-visibility">Your input on a 0–100 scale; not measured by this tool.</small></div><div class="calc-field"><label for="calc-organic">Organic traffic share (%)</label><input id="calc-organic" name="organic" type="number" inputmode="decimal" value="60" min="0" max="100" step="0.01" required aria-describedby="hint-organic"><small id="hint-organic">Share of visits from organic search.</small></div></div><p class="calc-error" id="calc-error" role="status"></p><details class="calc-method"><summary>How this scenario is calculated</summary><p>Additional traffic = monthly traffic × organic share × (1 − AI visibility score / 100) × 20%.</p><p>The 20% factor is a fixed modelling assumption, not a benchmark. The relationship between AI visibility and traffic is hypothetical.</p><p>Additional conversions = additional traffic × conversion rate. Revenue opportunity = unrounded additional conversions × average customer value.</p><p>For this model, a “lead” means an acquired customer. If you enter a lead conversion rate instead, enter average revenue per lead as the value to keep the estimate consistent. AI-attributed visits are not measured here.</p><p>All results refer to a monthly scenario. Displayed counts are rounded; calculations retain their precision.</p></details></form><div class="calc-panel"><div class="label">Illustrative monthly scenario · EUR</div><dl class="calc-results"><div><dt>Estimated missed traffic</dt><dd><output id="result-traffic">—</output></dd></div><div><dt>Potential additional leads / customers</dt><dd><output id="result-leads">—</output></dd></div><div><dt>Potential revenue opportunity</dt><dd><output id="result-revenue">—</output></dd></div></dl><p class="sr-only" id="calc-announcement" role="status" aria-atomic="true"></p><p class="calc-disclaimer">Hypothetical opportunity, not guaranteed growth. Default inputs are examples. No data is sent or saved.</p><button class="button primary" type="button" id="report-toggle" aria-expanded="false" aria-controls="report-form" disabled>Email me the full report</button><form class="report-form" id="report-form" hidden><label for="report-email">Email address</label><input id="report-email" type="email" autocomplete="email" required aria-describedby="report-help"><p id="report-help">Demo: email delivery is not connected. Preview the report and download it locally. Your email address will not be sent, saved or included in the file.</p><button class="button" type="submit">Preview my report</button><p id="report-status" role="status"></p><a id="report-download" hidden download="growth-scenario.txt">Download the full report (.txt)</a></form></div></div></section>
+
+<section class="methodology" id="methodology" lang="en" aria-labelledby="method-title"><div class="method-layout"><div class="method-heading"><div class="label">05 / From insight to execution</div><h2 id="method-title">How we grow.</h2><p>A clear starting point. Shared priorities. Execution you can measure.</p><a class="button" href="#call">Book a Strategy Call <span aria-hidden="true">&nbsp;↗</span></a></div><ol class="method-steps" id="method-steps"><li class="method-step"><div class="method-card"><span class="method-number">01</span><h3>Discover</h3><p>Audit data, competitors, market and visibility.</p><p class="method-deliverable"><span>Output / </span>A baseline and a prioritised opportunity map.</p></div></li><li class="method-step"><div class="method-card"><span class="method-number">02</span><h3>Strategy</h3><p>Build the SEO + GEO + AI growth roadmap.</p><p class="method-deliverable"><span>Output / </span>A roadmap with priorities, owners and success measures.</p></div></li><li class="method-step"><div class="method-card"><span class="method-number">03</span><h3>Execute</h3><p>Deploy content, automation, campaigns and technical optimization.</p><p class="method-deliverable"><span>Output / </span>Coordinated implementation across the agreed channels.</p></div></li><li class="method-step"><div class="method-card"><span class="method-number">04</span><h3>Scale</h3><p>Measure, iterate and expand what performs.</p><p class="method-deliverable"><span>Output / </span>Performance reviews and the next set of growth priorities.</p></div></li></ol></div></section>
+
+<section class="case-section" id="case-studies" tabindex="-1" lang="en" aria-labelledby="cases-title"><div class="label">06 / Case study previews</div><h2 id="cases-title">Proof, not promises.</h2><p class="case-intro">Demo content: the following scenarios and figures are fictional examples of how future, verified client stories will be presented.</p><ul class="case-grid"><li><article class="case-card" aria-labelledby="title-client-a-seo-geo"><span class="demo-badge">Fictional case · Demo</span><p class="case-client">CLIENT A</p><div class="case-category">SEO + GEO</div><h3 id="title-client-a-seo-geo">Connect search visibility to qualified demand.</h3><dl class="case-metrics"><div><dt>Organic traffic</dt><dd>+68%</dd></div><div><dt>Qualified leads</dt><dd>+42%</dd></div><div><dt>AI citations gained</dt><dd>12</dd></div></dl><a class="button case-link" href="#client-a-seo-geo" aria-label="View case study — CLIENT A">View case study <span aria-hidden="true">&nbsp;↗</span></a></article></li>
+<li><article class="case-card" aria-labelledby="title-client-b-ai-automation"><span class="demo-badge">Fictional case · Demo</span><p class="case-client">CLIENT B</p><div class="case-category">AI Automation</div><h3 id="title-client-b-ai-automation">Give the team more time for qualified leads.</h3><dl class="case-metrics"><div><dt>Manual workload</dt><dd>−45%</dd></div><div><dt>Conversion rate</dt><dd>+31%</dd></div></dl><a class="button case-link" href="#client-b-ai-automation" aria-label="View case study — CLIENT B">View case study <span aria-hidden="true">&nbsp;↗</span></a></article></li>
+<li><article class="case-card" aria-labelledby="title-client-c-seo-content"><span class="demo-badge">Fictional case · Demo</span><p class="case-client">CLIENT C</p><div class="case-category">SEO + Content</div><h3 id="title-client-c-seo-content">Build content around the questions buyers ask.</h3><dl class="case-metrics"><div><dt>Organic clicks</dt><dd>+112%</dd></div><div><dt>Google positions</dt><dd>Top 3</dd></div></dl><a class="button case-link" href="#client-c-seo-content" aria-label="View case study — CLIENT C">View case study <span aria-hidden="true">&nbsp;↗</span></a></article></li></ul><details class="case-details" id="client-a-seo-geo"><summary>CLIENT A — SEO + GEO<span class="sr-only"> — fictional example</span></summary><p class="demo-badge">Fictional scenario and results — not a client reference.</p><div class="case-detail-grid"><div><h4>Context</h4><p>Illustrative B2B company with a growing service portfolio.</p></div><div><h4>Problem</h4><p>Key buying questions are poorly covered, and brand mentions in AI answers are not monitored.</p></div><div><h4>Strategy</h4><p>Audit technical foundations, map buying questions, improve service content and establish a repeatable AI citation review.</p></div><div><h4>Illustrative results</h4><p>Illustrative outcome: more relevant organic visits, more qualified enquiries and additional citations in the monitored sample.</p></div></div><p class="case-evidence">Fictional example. No baseline, measurement period or supporting client data supplied.</p><a class="button primary" href="#call">Discuss a similar challenge <span aria-hidden="true">&nbsp;↗</span></a></details>
+<details class="case-details" id="client-b-ai-automation"><summary>CLIENT B — AI Automation<span class="sr-only"> — fictional example</span></summary><p class="demo-badge">Fictional scenario and results — not a client reference.</p><div class="case-detail-grid"><div><h4>Context</h4><p>Illustrative service business managing inbound enquiries across several channels.</p></div><div><h4>Problem</h4><p>Manual data entry and inconsistent follow-up slow down lead handling.</p></div><div><h4>Strategy</h4><p>Connect the CRM, define qualification rules, automate follow-up and keep human review for exceptions.</p></div><div><h4>Illustrative results</h4><p>Illustrative outcome: less manual work and a higher share of enquiries converting at the measured funnel stage.</p></div></div><p class="case-evidence">Fictional example. No baseline, measurement period or supporting client data supplied.</p><a class="button primary" href="#call">Discuss a similar challenge <span aria-hidden="true">&nbsp;↗</span></a></details>
+<details class="case-details" id="client-c-seo-content"><summary>CLIENT C — SEO + Content<span class="sr-only"> — fictional example</span></summary><p class="demo-badge">Fictional scenario and results — not a client reference.</p><div class="case-detail-grid"><div><h4>Context</h4><p>Illustrative company with expertise that is not yet reflected in its website content.</p></div><div><h4>Problem</h4><p>Disconnected articles and weak internal links make priority topics hard to discover.</p></div><div><h4>Strategy</h4><p>Build topic clusters, refresh existing pages, improve internal links and develop expert-reviewed content.</p></div><div><h4>Illustrative results</h4><p>Illustrative outcome: more organic clicks and top-three positions for selected queries.</p></div></div><p class="case-evidence">Fictional example. No baseline, measurement period or supporting client data supplied.</p><a class="button primary" href="#call">Discuss a similar challenge <span aria-hidden="true">&nbsp;↗</span></a></details></section>
+<section class="preview-notes"><h2>Repères du prototype</h2><p>Ces repères permettent de tester les liens avant la création des pages. Les plateformes citées indiquent les canaux visés, sans affiliation ni partenariat revendiqué. Le nom de l’agence reste provisoire.</p>
+
+<section class="demo" id="solutions" tabindex="-1"><h2>Solutions</h2><div class="route">/services#solutions</div><p>Destination prévue pour les audits et la stratégie de croissance.</p></section>
+<section class="demo" id="industries" tabindex="-1"><h2>Industries</h2><div class="route">/industries</div><p>Destination prévue pour les secteurs accompagnés.</p></section>
+
+<section class="demo" id="insights" tabindex="-1"><h2>Insights</h2><div class="route">/blog</div><p>Destination prévue pour les articles et analyses.</p></section>
+<section class="demo" id="about" tabindex="-1"><h2>About</h2><div class="route">/about</div><p>Destination prévue pour la présentation de l’agence.</p></section>
+<section class="demo" id="audit" tabindex="-1"><h2>Free AI Visibility Audit</h2><div class="route">/free-ai-visibility-audit</div><p>Destination prévue pour la demande d’audit gratuit.</p></section>
+<section class="demo" id="call" tabindex="-1"><h2>Book a Strategy Call</h2><div class="route">/book-call</div><p>Destination prévue pour la prise de rendez-vous.</p></section>
+</section>
+</main>
+<script type="application/json" id="problem-stat-data">
+[
+  {
+    "id": "ai-influence",
+    "value": null,
+    "prefix": "",
+    "suffix": "%",
+    "label": "Searches influenced by AI",
+    "status": "pending",
+    "sourceUrl": null,
+    "sourceTitle": null,
+    "period": null,
+    "scope": null,
+    "note": "Source and measurement scope required."
+  },
+  {
+    "id": "platforms",
+    "value": 5,
+    "prefix": "",
+    "suffix": "",
+    "label": "AI platforms monitored",
+    "status": "demo",
+    "sourceUrl": null,
+    "sourceTitle": null,
+    "period": null,
+    "scope": null,
+    "note": "Illustrative scope, to confirm with the actual offer."
+  },
+  {
+    "id": "tracking",
+    "value": 24,
+    "prefix": "",
+    "suffix": "/7",
+    "label": "Visibility tracking",
+    "status": "demo",
+    "sourceUrl": null,
+    "sourceTitle": null,
+    "period": null,
+    "scope": null,
+    "note": "Illustrative availability, not a live monitoring commitment."
+  }
+]
+</script>
+<script>
+const menu = document.getElementById('mobile-menu');
+const summary = menu.querySelector('summary');
+const compact = document.querySelector('.compact');
+document.addEventListener('keydown', event => {if(event.key === 'Escape' && menu.open){menu.open = false;summary.focus();}});
+compact.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {menu.open = false;const target = document.querySelector(link.getAttribute('href'));if(target){requestAnimationFrame(() => {target.focus({preventScroll:true});target.scrollIntoView();});}}));
+matchMedia('(min-width:80rem)').addEventListener('change', event => {if(event.matches){const hadFocus = menu.contains(document.activeElement);menu.open=false;if(hadFocus)document.querySelector('.bar .brand').focus();}});
+
+const statData = JSON.parse(document.getElementById('problem-stat-data').textContent);
+const statList = document.getElementById('problem-stats');
+const counters = [];
+for (const stat of statData) {
+  const card = document.createElement('li'); card.className = 'stat';
+  const status = document.createElement('div'); status.className = 'stat-status';
+  status.textContent = stat.status === 'demo' ? 'Illustrative figure' : 'Awaiting source';
+  const number = document.createElement('div'); number.className = 'stat-value'; number.setAttribute('aria-hidden', 'true');
+  const format = value => stat.prefix + (value === null ? '—' : String(value)) + stat.suffix;
+  number.textContent = format(stat.value);
+  const accessible = document.createElement('span'); accessible.className = 'sr-only'; accessible.textContent = stat.value === null ? 'Value awaiting validation. ' : format(stat.value) + '. ';
+  const label = document.createElement('h3'); label.textContent = stat.label;
+  const note = document.createElement('p'); note.textContent = stat.note;
+  card.append(status, number, accessible, label, note); statList.append(card);
+  if (Number.isFinite(stat.value)) counters.push({number, value:stat.value, format});
+}
+const motionPreference = matchMedia('(prefers-reduced-motion: reduce)');
+if ('IntersectionObserver' in window) {
+  const observer = new IntersectionObserver(entries => {
+    if (!entries.some(entry => entry.isIntersecting)) return;
+    observer.disconnect();
+    if (motionPreference.matches) return;
+    const started = performance.now();
+    function tick(now) {
+      const progress = motionPreference.matches ? 1 : Math.min((now - started) / 900, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      counters.forEach(counter => {counter.number.textContent = counter.format(Math.round(counter.value * eased));});
+      if (progress < 1) requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }, {threshold:0.15});
+  observer.observe(statList);
+}
+
+</script>
+<script src="09-calculator.js"></script>
+<script src="10-methodologie.js"></script>
+<script src="11-case-studies.js"></script>
+</body>
+</html>

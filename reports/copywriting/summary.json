@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-19T12:56:05.396Z",
+  "build": "passed",
+  "typecheck": "passed",
+  "language": "fr",
+  "browserChecks": [
+    "French document and Open Graph locale",
+    "fictional case labels",
+    "unsupported homepage claims removed",
+    "local simulation download",
+    "no POST during download"
+  ],
+  "browserChecksPassed": true,
+  "responsiveChecks": 108,
+  "responsivePassed": true
+}

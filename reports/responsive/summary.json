@@ -1,0 +1,555 @@
+{
+  "date": "2026-09-19T12:58:14.317Z",
+  "browser": "153.0.8010.52",
+  "base": "http://127.0.0.1:3109",
+  "checks": [
+    {
+      "route": "/",
+      "width": 320,
+      "height": 780
+    },
+    {
+      "route": "/services",
+      "width": 320,
+      "height": 780
+    },
+    {
+      "route": "/services/strategie-conseil",
+      "width": 320,
+      "height": 780
+    },
+    {
+      "route": "/industries",
+      "width": 320,
+      "height": 780
+    },
+    {
+      "route": "/industries/juridique",
+      "width": 320,
+      "height": 780
+    },
+    {
+      "route": "/case-studies",
+      "width": 320,
+      "height": 780
+    },
+    {
+      "route": "/case-studies/client-a-seo-geo",
+      "width": 320,
+      "height": 780
+    },
+    {
+      "route": "/blog",
+      "width": 320,
+      "height": 780
+    },
+    {
+      "route": "/blog/seo-and-ai-search-shared-foundations",
+      "width": 320,
+      "height": 780
+    },
+    {
+      "route": "/about",
+      "width": 320,
+      "height": 780
+    },
+    {
+      "route": "/contact",
+      "width": 320,
+      "height": 780
+    },
+    {
+      "route": "/free-ai-visibility-audit",
+      "width": 320,
+      "height": 780
+    },
+    {
+      "route": "/book-call",
+      "width": 320,
+      "height": 780
+    },
+    {
+      "route": "/tools",
+      "width": 320,
+      "height": 780
+    },
+    {
+      "route": "/glossary",
+      "width": 320,
+      "height": 780
+    },
+    {
+      "route": "/comparisons/seo-vs-geo",
+      "width": 320,
+      "height": 780
+    },
+    {
+      "route": "/authors/editorial-profile",
+      "width": 320,
+      "height": 780
+    },
+    {
+      "route": "/editorial-policy",
+      "width": 320,
+      "height": 780
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "route": "/services",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "route": "/services/strategie-conseil",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "route": "/industries",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "route": "/industries/juridique",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "route": "/case-studies",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "route": "/case-studies/client-a-seo-geo",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "route": "/blog",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "route": "/blog/seo-and-ai-search-shared-foundations",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "route": "/about",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "route": "/contact",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "route": "/free-ai-visibility-audit",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "route": "/book-call",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "route": "/tools",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "route": "/glossary",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "route": "/comparisons/seo-vs-geo",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "route": "/authors/editorial-profile",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "route": "/editorial-policy",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "route": "/services",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "route": "/services/strategie-conseil",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "route": "/industries",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "route": "/industries/juridique",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "route": "/case-studies",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "route": "/case-studies/client-a-seo-geo",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "route": "/blog",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "route": "/blog/seo-and-ai-search-shared-foundations",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "route": "/about",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "route": "/contact",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "route": "/free-ai-visibility-audit",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "route": "/book-call",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "route": "/tools",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "route": "/glossary",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "route": "/comparisons/seo-vs-geo",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "route": "/authors/editorial-profile",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "route": "/editorial-policy",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "route": "/services",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "route": "/services/strategie-conseil",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "route": "/industries",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "route": "/industries/juridique",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "route": "/case-studies",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "route": "/case-studies/client-a-seo-geo",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "route": "/blog",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "route": "/blog/seo-and-ai-search-shared-foundations",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "route": "/about",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "route": "/contact",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "route": "/free-ai-visibility-audit",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "route": "/book-call",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "route": "/tools",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "route": "/glossary",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "route": "/comparisons/seo-vs-geo",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "route": "/authors/editorial-profile",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "route": "/editorial-policy",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "route": "/",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "route": "/services",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "route": "/services/strategie-conseil",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "route": "/industries",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "route": "/industries/juridique",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "route": "/case-studies",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "route": "/case-studies/client-a-seo-geo",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "route": "/blog",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "route": "/blog/seo-and-ai-search-shared-foundations",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "route": "/about",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "route": "/contact",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "route": "/free-ai-visibility-audit",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "route": "/book-call",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "route": "/tools",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "route": "/glossary",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "route": "/comparisons/seo-vs-geo",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "route": "/authors/editorial-profile",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "route": "/editorial-policy",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "route": "/services",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "route": "/services/strategie-conseil",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "route": "/industries",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "route": "/industries/juridique",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "route": "/case-studies",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "route": "/case-studies/client-a-seo-geo",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "route": "/blog",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "route": "/blog/seo-and-ai-search-shared-foundations",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "route": "/about",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "route": "/contact",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "route": "/free-ai-visibility-audit",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "route": "/book-call",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "route": "/tools",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "route": "/glossary",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "route": "/comparisons/seo-vs-geo",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "route": "/authors/editorial-profile",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "route": "/editorial-policy",
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "interactions": [
+    "menu, submenu, Escape at 320/844/640px",
+    "sticky header CTA",
+    "vertical mobile cards",
+    "keyboard calculator slider",
+    "reduced motion"
+  ],
+  "limitations": "Chrome local; viewport emulation, not physical devices"
+}

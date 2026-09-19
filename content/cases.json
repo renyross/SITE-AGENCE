@@ -1,0 +1,78 @@
+[
+  {
+    "slug": "client-a-seo-geo",
+    "client": "EXEMPLE A",
+    "category": "SEO + GEO",
+    "title": "Relier la visibilité aux demandes qualifiées.",
+    "context": "Entreprise B2B fictive développant son offre.",
+    "problem": "Les questions des acheteurs sont peu couvertes et les mentions dans les réponses IA ne sont pas suivies.",
+    "strategy": "Examiner les bases techniques, structurer les contenus de services et définir un suivi des citations.",
+    "results": "Scénario illustratif : davantage de visites pertinentes, de demandes qualifiées et de citations dans le panel observé.",
+    "metrics": [
+      {
+        "value": "+68%",
+        "label": "Trafic organique"
+      },
+      {
+        "value": "+42%",
+        "label": "Demandes qualifiées"
+      },
+      {
+        "value": "12",
+        "label": "Citations IA"
+      }
+    ],
+    "status": "demo",
+    "period": null,
+    "source": null,
+    "measurementNotes": "Scénario fictif. Aucune période, donnée client ni pièce justificative ne permet de présenter ces chiffres comme des résultats réels."
+  },
+  {
+    "slug": "client-b-ai-automation",
+    "client": "EXEMPLE B",
+    "category": "Automatisation IA",
+    "title": "Libérer du temps pour le suivi des prospects.",
+    "context": "Entreprise de services fictive recevant des demandes sur plusieurs canaux.",
+    "problem": "Les ressaisies et les relances irrégulières ralentissent le traitement.",
+    "strategy": "Relier le CRM, définir les règles de qualification et garder une validation humaine des exceptions.",
+    "results": "Scénario illustratif : moins de tâches manuelles et davantage de demandes converties à l’étape étudiée.",
+    "metrics": [
+      {
+        "value": "−45%",
+        "label": "Charge manuelle"
+      },
+      {
+        "value": "+31%",
+        "label": "Taux de conversion"
+      }
+    ],
+    "status": "demo",
+    "period": null,
+    "source": null,
+    "measurementNotes": "Scénario fictif. Aucune période, donnée client ni pièce justificative ne permet de présenter ces chiffres comme des résultats réels."
+  },
+  {
+    "slug": "client-c-seo-content",
+    "client": "EXEMPLE C",
+    "category": "SEO + Contenu",
+    "title": "Répondre aux questions des acheteurs.",
+    "context": "Entreprise fictive dont le site reflète mal l’expertise.",
+    "problem": "Les articles isolés et le manque de liens internes rendent les sujets prioritaires difficiles à trouver.",
+    "strategy": "Regrouper les sujets, actualiser les pages et faire relire les contenus par des experts.",
+    "results": "Scénario illustratif : davantage de clics et de meilleures positions sur certaines requêtes.",
+    "metrics": [
+      {
+        "value": "+112%",
+        "label": "Clics organiques"
+      },
+      {
+        "value": "Top 3",
+        "label": "Positions Google"
+      }
+    ],
+    "status": "demo",
+    "period": null,
+    "source": null,
+    "measurementNotes": "Scénario fictif. Aucune période, donnée client ni pièce justificative ne permet de présenter ces chiffres comme des résultats réels."
+  }
+]
