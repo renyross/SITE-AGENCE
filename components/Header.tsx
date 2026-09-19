@@ -68,8 +68,11 @@ export default function Header() {
       >
         <div className="app-header-row">
           <a className="app-brand" href="/" aria-label="ALTEORIA — accueil">
-            <span className="brand-symbol" aria-hidden="true">↗</span>
-            <span className="app-brand-text">{site.name || 'ALTEORIA'}</span>
+            <span className="app-brand-badge" aria-hidden="true">↗</span>
+            <span className="app-brand-info">
+              <span className="app-brand-name">{site.name || 'ALTEORIA'}</span>
+              <span className="app-brand-tag">MARKETING &amp; IA</span>
+            </span>
           </a>
 
           <nav className="app-desktop-nav" aria-label="Navigation principale">
@@ -172,7 +175,13 @@ export default function Header() {
           </div>
 
           <details className="app-menu" ref={menu}>
-            <summary>Menu <span aria-hidden="true">☰</span></summary>
+            <summary className="app-menu-btn" aria-label="Menu de navigation">
+              <span className="hamburger-box" aria-hidden="true">
+                <span className="hamburger-bar"></span>
+                <span className="hamburger-bar"></span>
+                <span className="hamburger-bar"></span>
+              </span>
+            </summary>
             <div className="app-menu-panel">
               <nav aria-label="Navigation mobile">
                 <details className="mobile-services-dropdown">
