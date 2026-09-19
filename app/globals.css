@@ -521,10 +521,10 @@ main{max-width:1440px;margin:auto;padding:0 80px 64px}
 .status-live-dot{width:7px;height:7px;border-radius:50%;background:#C6F564;box-shadow:0 0 8px #C6F564;display:inline-block}
 
 /* Floating Widgets */
-.floating-audit-pill{position:fixed;bottom:24px;left:24px;z-index:90;background:rgba(17,17,20,0.95);backdrop-filter:blur(12px);border:1px solid #2B2B32;border-radius:9999px;padding:6px 14px 6px 18px;display:flex;align-items:center;gap:12px;box-shadow:0 12px 32px rgba(0,0,0,0.6);font-size:.8125rem;color:#E4E4E7}
-.floating-pill-btn{background:#C6F564;color:#0B0B0D;font-weight:700;border-radius:9999px;padding:6px 14px;font-size:.75rem;text-decoration:none;white-space:nowrap;transition:background .2s}
-.floating-pill-btn:hover{background:#D6FF85;color:#0B0B0D}
-.floating-pill-close{background:transparent;border:none;color:#73737D;font-size:11px;cursor:pointer;padding:4px}
+.floating-audit-pill{position:fixed;bottom:24px;left:24px;z-index:90;background:rgba(17,17,20,0.95);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid #2B2B32;border-radius:9999px;padding:6px 12px 6px 18px;display:flex;align-items:center;gap:12px;box-shadow:0 12px 32px rgba(0,0,0,0.6);font-size:.8125rem;color:#E4E4E7}
+.floating-pill-btn{display:inline-flex;align-items:center;gap:6px;background:#C6F564;color:#0B0B0D;font-weight:700;border-radius:9999px;padding:7px 16px;font-size:.78125rem;text-decoration:none;white-space:nowrap;transition:background .2s ease,transform .2s ease,box-shadow .2s ease}
+.floating-pill-btn:hover{background:#D6FF85;color:#0B0B0D;transform:translateY(-1px);box-shadow:0 4px 12px rgba(198,245,100,0.3)}
+.floating-pill-close{background:transparent;border:none;color:#73737D;font-size:11px;cursor:pointer;padding:4px;display:inline-flex;align-items:center;justify-content:center}
 .floating-pill-close:hover{color:#F7F7F7}
 .floating-whatsapp-btn{position:fixed;bottom:24px;right:24px;z-index:90;width:52px;height:52px;border-radius:50%;background:#C6F564;color:#0B0B0D;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(198,245,100,0.35);text-decoration:none;transition:transform .2s,background .2s}
 .floating-whatsapp-btn:hover{transform:scale(1.08);background:#D6FF85;color:#0B0B0D}
