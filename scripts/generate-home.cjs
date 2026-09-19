@@ -50,11 +50,11 @@ const heroSection = `
           <svg class="hero-ai-pill-icon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
             <path fill="#7C5CFC" d="M12 0C12 6.627 6.627 12 0 12c6.627 0 12 5.373 12 12 0-6.627 5.373-12 12-12-6.627 0-12-5.373-12-12z"/>
           </svg>
-          <span class="hero-ai-pill-text">Gémeaux</span>
+          <span class="hero-ai-pill-text">Gemini</span>
         </div>
         <div class="hero-ai-pill">
-          <img src="${perplexityLogo}" alt="Perplexité" class="hero-ai-pill-icon" width="22" height="22" loading="lazy" />
-          <span class="hero-ai-pill-text">Perplexité</span>
+          <img src="${perplexityLogo}" alt="Perplexity" class="hero-ai-pill-icon" width="22" height="22" loading="lazy" />
+          <span class="hero-ai-pill-text">Perplexity</span>
         </div>
         <div class="hero-ai-pill">
           <svg class="hero-ai-pill-icon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
