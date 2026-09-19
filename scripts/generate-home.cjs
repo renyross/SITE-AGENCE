@@ -32,7 +32,7 @@ const heroSection = `
       </div>
     </div>
 
-    <h1 id="hero-title">Prenez le contrôle de votre visibilité <span>et imposez-vous sur votre marché.</span></h1>
+    <h1 id="hero-title">Dominez votre marché. <span>Devenez incontournable.</span></h1>
     <p class="lead">Nous combinons SEO, GEO, intelligence artificielle, automatisation, contenu et expérience web pour transformer votre visibilité en croissance réelle.</p>
     
     <div class="hero-ai-pills-wrap">
