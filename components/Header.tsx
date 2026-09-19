@@ -170,11 +170,7 @@ export default function Header() {
           </nav>
 
           <div className="app-header-actions">
-            <a className="button primary" href="/book-call">
-              <span className="full-audit">Réservez un appel stratégique gratuit</span>
-              <span className="short-audit">Appel stratégique</span>
-            </a>
-            <a className="button desktop-call" href="/free-ai-visibility-audit">Audit de visibilité IA</a>
+            <a className="button primary" href="/free-ai-visibility-audit">Audit de visibilité IA</a>
           </div>
 
           <details className="app-menu" ref={menu}>
@@ -214,8 +210,7 @@ export default function Header() {
                   </a>
                 ))}
               </nav>
-              <a className="button primary" href="/book-call">Réservez un appel stratégique gratuit</a>
-              <a className="button" href="/free-ai-visibility-audit">Audit de visibilité IA</a>
+              <a className="button primary" href="/free-ai-visibility-audit">Audit de visibilité IA</a>
             </div>
           </details>
         </div>
