@@ -33,26 +33,25 @@ const heroSection = `
     </div>
 
     <h1 id="hero-title" class="hero-main-title">
-      <span class="hero-title-top">Agence IA &amp;</span>
+      <span class="hero-title-top">AUTOMATISEZ CE QUI VOUS RALENTIT.</span>
       <span class="hero-title-mid">
-        Automatisation
+        <span class="hero-accent-highlight">ACCÉLÉREZ CE QUI VOUS FAIT GRANDIR.</span>
         <span class="hero-underline-container" aria-hidden="true">
           <svg class="hero-underline-svg" viewBox="0 0 540 24" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
             <path d="M4 18C160 4 380 4 536 14" stroke="url(#hero-brush-grad)" stroke-width="7" stroke-linecap="round"/>
             <defs>
               <linearGradient id="hero-brush-grad" x1="0" y1="0" x2="540" y2="0" gradientUnits="userSpaceOnUse">
-                <stop offset="0%" stop-color="#7C5CFC"/>
+                <stop offset="0%" stop-color="#C6F564"/>
                 <stop offset="50%" stop-color="#38BDF8"/>
-                <stop offset="100%" stop-color="#00D2FF"/>
+                <stop offset="100%" stop-color="#7C5CFC"/>
               </linearGradient>
             </defs>
           </svg>
         </span>
       </span>
-      <span class="hero-subphrase">démultipliez <span class="hero-accent-purple">sans limite.</span></span>
     </h1>
 
-    <p class="lead"><strong class="lead-strong">L’intelligence artificielle au service de votre rentabilité.</strong> Nous concevons vos architectures sur-mesure pour automatiser vos opérations, libérer vos équipes et propulser vos résultats.</p>
+    <p class="lead">Nous concevons des systèmes d'automatisation intelligents qui connectent vos outils, éliminent les tâches répétitives et optimisent vos opérations marketing, commerciales et internes.</p>
 
     <div class="hero-trust-checks" aria-label="Engagements et garanties ALTEORIA">
       <div class="hero-trust-item">
@@ -76,8 +75,8 @@ const heroSection = `
     </div>
 
     <div class="hero-actions">
-      <a class="hero-btn-cyan" href="/free-ai-visibility-audit">Audit gratuit <span aria-hidden="true" class="arrow">↗</span></a>
-      <a class="hero-btn-glass" href="/services">Voir nos solutions IA</a>
+      <a class="hero-btn-cyan" href="/services">Automatiser vos processus <span aria-hidden="true" class="arrow">→</span></a>
+      <a class="hero-btn-glass" href="/free-ai-visibility-audit">Demander un audit gratuit <span aria-hidden="true" class="arrow">↗</span></a>
     </div>
 
     <div class="hero-ai-pills-wrap">
