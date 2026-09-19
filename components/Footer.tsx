@@ -1,4 +1,5 @@
 import { FooterClock, FooterWidgets } from './FooterWidgets';
+import { alteoriaLogo } from '../lib/logo';
 
 const planDuSite = [
   { label: 'Services', href: '/services' },
@@ -50,7 +51,7 @@ export default function Footer() {
         {/* Colonne 1: Marque & Description & Réseaux */}
         <div className="footer-brand-col">
           <a href="/" className="footer-logo" aria-label="ALTEORIA — Accueil">
-            ALTEORIA<span className="footer-logo-dot">.</span>
+            <img src={alteoriaLogo} alt="ALTEORIA" className="footer-brand-logo" width="160" height="37" />
           </a>
           <p className="footer-mission-text">
             Référencement, contenu et automatisation pour aider vos prochains clients à vous trouver et à prendre contact.

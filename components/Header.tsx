@@ -2,6 +2,7 @@
 import site from '../content/site.json';
 import { usePathname } from 'next/navigation';
 import { useRef, useState, useEffect } from 'react';
+import { alteoriaLogo } from '../lib/logo';
 
 const serviceGroups = [
   {title:'Visibilité & acquisition',items:[
@@ -68,11 +69,13 @@ export default function Header() {
       >
         <div className="app-header-row">
           <a className="app-brand" href="/" aria-label="ALTEORIA — accueil">
-            <span className="app-brand-badge" aria-hidden="true">↗</span>
-            <span className="app-brand-info">
-              <span className="app-brand-name">{site.name || 'ALTEORIA'}</span>
-              <span className="app-brand-tag">MARKETING &amp; IA</span>
-            </span>
+            <img
+              src={alteoriaLogo}
+              alt="ALTEORIA"
+              className="app-brand-logo"
+              width="153"
+              height="35"
+            />
           </a>
 
           <nav className="app-desktop-nav" aria-label="Navigation principale">
