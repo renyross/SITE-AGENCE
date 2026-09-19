@@ -757,7 +757,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px soli
   .footer-links-list a,.footer-legal-links a{display:inline-flex;align-items:center;min-height:44px}
   .social-square{width:44px;height:44px}
   .footer-social-squares{flex-wrap:wrap}
-  .track,.multilingual-ticker-track{animation:none!important;transform:none;width:100%;flex-wrap:wrap}
+  .track{animation:none!important;transform:none;width:100%;flex-wrap:wrap}
   .platform-list{flex-wrap:wrap;width:100%;padding:0;gap:16px}
   .platform-list[aria-hidden]{display:none}
   .motion-control,.technology-controls{display:none}
@@ -767,12 +767,15 @@ button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px soli
   .technologies .technology-list[aria-hidden]{display:flex!important}
   .technologies .technology-list li{display:inline-flex!important;align-items:center!important;gap:12px!important;padding:12px 18px!important;font-size:.9375rem!important;white-space:nowrap!important;flex-shrink:0!important;max-width:none!important;border-radius:10px!important}
   .badge-live-pulse{animation:none}
-  .multilingual-ticker-track{gap:16px;font-size:1.25rem}
+  .multilingual-ticker-wrap{overflow:hidden;width:100%;padding:18px 0;border-top:1px solid #1C1C22;border-bottom:1px solid #1C1C22;user-select:none}
+  .multilingual-ticker-track{display:flex!important;width:max-content!important;flex-wrap:nowrap!important;white-space:nowrap!important;animation:multi-ticker 24s linear infinite!important;animation-play-state:running!important;gap:20px!important;font-size:1.15rem!important;align-items:center!important;will-change:transform}
+  .multilingual-ticker-track span{white-space:nowrap!important;flex-shrink:0!important}
+  .ticker-dot{color:#C6F564;display:inline-block}
   .ai-engine-card:hover,.method-step:hover .method-node,.method-step:hover .method-ghost-num{transform:none}
 }
 
 /* Point 24 — restrained motion, static by default. */
-.multilingual-ticker-track{animation-play-state:paused}
+.multilingual-ticker-track{animation-play-state:running}
 .multilingual-ticker-wrap.motion-playing .multilingual-ticker-track{animation-play-state:running}
 .multilingual-ticker-wrap:hover .multilingual-ticker-track{animation-play-state:paused}
 .motion-toggle{display:block;margin:20px auto 0;min-height:44px;padding:10px 18px;border:1px solid #73737D;border-radius:8px;background:#111114;color:#F7F7F7;font:inherit;font-size:.875rem;cursor:pointer}
