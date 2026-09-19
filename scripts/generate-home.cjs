@@ -25,16 +25,61 @@ const heroSection = `
 
   <div class="hero-content">
     <div class="hero-badge-row">
-      <div class="label">Partenaire marketing natif de l’IA</div>
+      <div class="label">Agence ALTEORIA · Automatisation &amp; Intelligence Artificielle</div>
       <div class="hero-live-badge">
         <span class="badge-live-pulse" aria-hidden="true"></span>
-        <span>Production &amp; Cinématique IA</span>
+        <span>Solutions sur-mesure</span>
       </div>
     </div>
 
-    <h1 id="hero-title">Dominez votre marché. <span>Devenez incontournable.</span></h1>
-    <p class="lead">Nous combinons SEO, GEO, intelligence artificielle, automatisation, contenu et expérience web pour transformer votre visibilité en croissance réelle.</p>
-    
+    <h1 id="hero-title" class="hero-main-title">
+      <span class="hero-title-top">Agence IA &amp;</span>
+      <span class="hero-title-mid">
+        Automatisation
+        <span class="hero-underline-container" aria-hidden="true">
+          <svg class="hero-underline-svg" viewBox="0 0 540 24" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+            <path d="M4 18C160 4 380 4 536 14" stroke="url(#hero-brush-grad)" stroke-width="7" stroke-linecap="round"/>
+            <defs>
+              <linearGradient id="hero-brush-grad" x1="0" y1="0" x2="540" y2="0" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#7C5CFC"/>
+                <stop offset="50%" stop-color="#38BDF8"/>
+                <stop offset="100%" stop-color="#00D2FF"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+      </span>
+      <span class="hero-subphrase">transformez <span class="hero-accent-purple">sans limite</span></span>
+    </h1>
+
+    <p class="lead"><strong class="lead-strong">Agence spécialisée en IA et automatisation.</strong> Nous concevons des solutions sur-mesure pour automatiser vos processus, optimiser vos workflows et propulser votre croissance.</p>
+
+    <div class="hero-trust-checks" aria-label="Engagements et garanties ALTEORIA">
+      <div class="hero-trust-item">
+        <svg class="hero-check-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+        </svg>
+        <span>Expert automatisation IA</span>
+      </div>
+      <div class="hero-trust-item">
+        <svg class="hero-check-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+        </svg>
+        <span>Solutions sur-mesure</span>
+      </div>
+      <div class="hero-trust-item">
+        <svg class="hero-check-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+        </svg>
+        <span>ROI garanti</span>
+      </div>
+    </div>
+
+    <div class="hero-actions">
+      <a class="hero-btn-cyan" href="/free-ai-visibility-audit">Audit gratuit <span aria-hidden="true" class="arrow">↗</span></a>
+      <a class="hero-btn-glass" href="/services">Voir nos solutions IA</a>
+    </div>
+
     <div class="hero-ai-pills-wrap">
       <div class="hero-ai-pills-label">CONÇU POUR REMPORTER DES PRIX DANS</div>
       <div class="hero-ai-pills-row" aria-label="Moteurs et modèles d’IA">
@@ -66,11 +111,6 @@ const heroSection = `
           <span class="hero-ai-pill-text">IA de Google</span>
         </div>
       </div>
-    </div>
-
-    <div class="hero-actions">
-      <a class="button primary" href="/book-call">Réservez un appel stratégique gratuit <span aria-hidden="true" class="arrow">↗</span></a>
-      <a class="button" href="/free-ai-visibility-audit">Obtenir mon audit de visibilité IA gratuit <span aria-hidden="true" class="arrow">↗</span></a>
     </div>
   </div>
 </section>`;
