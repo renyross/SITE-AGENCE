@@ -33,7 +33,7 @@ const heroSection = `
     </div>
 
     <h1 id="hero-title" class="hero-main-title">
-      <span class="hero-title-top">AUTOMATISEZ CE QUI VOUS RALENTIT.</span>
+      <span class="hero-title-top">AUTOMATISEZ CE QUI VOUS RALENTIT. </span>
       <span class="hero-title-mid">
         <span class="hero-accent-highlight">ACCÉLÉREZ CE QUI VOUS FAIT GRANDIR.</span>
         <span class="hero-underline-container" aria-hidden="true">

@@ -35,12 +35,12 @@ main{max-width:1440px;margin:auto;padding:0 80px 64px}
 @keyframes hero-pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(1.2)}}
 .hero h1{font-size:clamp(2.75rem,2rem + 3.5vw,5.25rem);line-height:1.08;letter-spacing:-.04em;max-width:20ch;margin:0 0 20px 0;color:#F7F7F7}
 .hero h1 span{color:#C6F564}
-.hero-main-title{font-size:clamp(2.1rem,1.5rem + 2.8vw,4.25rem);line-height:1.08;letter-spacing:-.035em;font-weight:800;color:#F7F7F7;margin:0 0 24px 0;max-width:26ch}
-.hero-title-top{display:block}
-.hero-title-mid{display:inline-block;position:relative}
-.hero-accent-highlight{color:#C6F564;background:linear-gradient(135deg,#D6FF85 0%,#C6F564 50%,#38BDF8 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;display:inline-block}
-.hero-underline-container{display:block;width:100%;line-height:0}
-.hero-underline-svg{display:block;width:100%;max-width:540px;height:clamp(10px,1.4vw,20px);margin-top:clamp(2px,0.4vw,6px);margin-bottom:clamp(4px,0.6vw,10px)}
+.hero-main-title{font-size:clamp(1.75rem,1.2rem + 1.8vw,3.2rem);line-height:1.2;letter-spacing:-.035em;font-weight:800;color:#F7F7F7;margin:0 0 28px 0;max-width:55ch}
+.hero-title-top{display:inline}
+.hero-title-mid{display:inline-block;position:relative;vertical-align:baseline}
+.hero-accent-highlight{color:#C6F564;background:linear-gradient(135deg,#D6FF85 0%,#C6F564 50%,#38BDF8 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;display:inline}
+.hero-underline-container{position:absolute;left:0;bottom:-6px;width:100%;line-height:0;pointer-events:none}
+.hero-underline-svg{display:block;width:100%;max-width:540px;height:clamp(8px,1vw,16px)}
 .hero-subphrase{display:block;font-size:clamp(2rem,1.4rem + 2.5vw,4.25rem);font-weight:800;letter-spacing:-.035em;color:#F7F7F7;margin-top:2px}
 .hero-accent-purple{color:#8B5CF6;background:linear-gradient(135deg,#A78BFA 0%,#8B5CF6 50%,#6366F1 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;display:inline-block}
 .hero .lead{font-size:clamp(1.05rem,0.95rem + .3vw,1.25rem);line-height:1.6;max-width:62ch;margin:0 0 24px 0;color:#B0B0BA}
