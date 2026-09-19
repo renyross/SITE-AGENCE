@@ -75,8 +75,8 @@ const heroSection = `
     </div>
 
     <div class="hero-actions">
-      <a class="hero-btn-cyan" href="/services">Automatiser vos processus <span aria-hidden="true" class="arrow">→</span></a>
-      <a class="hero-btn-glass" href="/free-ai-visibility-audit">Demander un audit gratuit <span aria-hidden="true" class="arrow">↗</span></a>
+      <a class="button primary" href="/services">Automatiser vos processus <span aria-hidden="true" class="arrow">→</span></a>
+      <a class="button" href="/free-ai-visibility-audit">Demander un audit gratuit <span aria-hidden="true" class="arrow">↗</span></a>
     </div>
 
     <div class="hero-ai-pills-wrap">
