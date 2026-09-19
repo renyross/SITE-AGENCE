@@ -825,42 +825,42 @@ const mainCtaSection = `
       <div class="cta-giant-left">
         <div class="cta-giant-tag">
           <span class="cta-giant-tag-dot" aria-hidden="true"></span>
-          <span>Passage à l'action · Croissance &amp; IA</span>
+          <span>Passez à l'échelle supérieure · Croissance &amp; IA</span>
         </div>
         <h2 id="main-cta-title" class="cta-giant-heading">
-          <span class="cta-heading-light">Prêt à</span><br/>
-          <span class="gradient-cyan-text">construire&nbsp;?</span>
+          <span class="cta-heading-light">Prêt à démultiplier</span><br/>
+          <span class="gradient-cyan-text">votre rentabilité&nbsp;?</span>
         </h2>
         <div class="cta-guarantees-list">
           <div class="cta-guarantee-item">
             <span class="cta-check" aria-hidden="true">✓</span>
-            <span>Sans engagement &amp; sans promesses creuses</span>
+            <span>Audit stratégique &amp; technique à 360°</span>
           </div>
           <div class="cta-guarantee-item">
             <span class="cta-check" aria-hidden="true">✓</span>
-            <span>Analyse concrète livrée sous 48 heures</span>
+            <span>Feuille de route exploitable sous 48 heures</span>
           </div>
           <div class="cta-guarantee-item">
             <span class="cta-check" aria-hidden="true">✓</span>
-            <span>Plan d'action direct &amp; prochaines étapes claires</span>
+            <span>Zéro engagement, 100 % de transparence opérationnelle</span>
           </div>
         </div>
       </div>
       <div class="cta-giant-right">
-        <p class="cta-giant-sub">Commencez par un audit gratuit. Sans engagement. Sans promesses. Une analyse concrète de votre situation actuelle et des prochaines étapes à suivre, livrée sous 48 heures.</p>
+        <p class="cta-giant-sub">Découvrez exactement ce qui ralentit vos équipes et comment l'automatisation intelligente peut débloquer vos opérations critiques. Nous identifions vos 3 gisements de valeur prioritaires et concevons l'architecture pour les déployer sans friction.</p>
         <div class="cta-giant-buttons">
-          <a class="button-pill-cyan" href="/book-call">
-            <span>Réserver un appel</span>
-            <span class="btn-arrow" aria-hidden="true">→</span>
-          </a>
-          <a class="button-pill-outline" href="/free-ai-visibility-audit">
-            <span>Obtenir un audit gratuit</span>
+          <a class="button-pill-cyan" href="/free-ai-visibility-audit">
+            <span>Demander mon audit gratuit</span>
             <span class="btn-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="button-pill-outline" href="/contact">
+            <span>Échanger avec un expert</span>
+            <span class="btn-arrow" aria-hidden="true">→</span>
           </a>
         </div>
         <div class="cta-giant-security">
           <span class="security-dot" aria-hidden="true">🔒</span>
-          <span>Gratuit · Aucune carte de crédit requise · Confidentialité garantie</span>
+          <span>Diagnostic offert · Confidentialité absolue des données · Sans aucun engagement</span>
         </div>
       </div>
     </div>
