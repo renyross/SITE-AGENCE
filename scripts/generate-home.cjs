@@ -49,29 +49,29 @@ const heroSection = `
           </svg>
         </span>
       </span>
-      <span class="hero-subphrase">transformez <span class="hero-accent-purple">sans limite</span></span>
+      <span class="hero-subphrase">démultipliez <span class="hero-accent-purple">sans limite.</span></span>
     </h1>
 
-    <p class="lead"><strong class="lead-strong">Agence spécialisée en IA et automatisation.</strong> Nous concevons des solutions sur-mesure pour automatiser vos processus, optimiser vos workflows et propulser votre croissance.</p>
+    <p class="lead"><strong class="lead-strong">L’intelligence artificielle au service de votre rentabilité.</strong> Nous concevons vos architectures sur-mesure pour automatiser vos opérations, libérer vos équipes et propulser vos résultats.</p>
 
     <div class="hero-trust-checks" aria-label="Engagements et garanties ALTEORIA">
       <div class="hero-trust-item">
         <svg class="hero-check-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
           <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
         </svg>
-        <span>Expert automatisation IA</span>
+        <span>Ingénierie IA sur-mesure</span>
       </div>
       <div class="hero-trust-item">
         <svg class="hero-check-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
           <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
         </svg>
-        <span>Solutions sur-mesure</span>
+        <span>Zéro friction opérationnelle</span>
       </div>
       <div class="hero-trust-item">
         <svg class="hero-check-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
           <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
         </svg>
-        <span>ROI garanti</span>
+        <span>Rentabilité mesurée</span>
       </div>
     </div>
 
@@ -81,7 +81,7 @@ const heroSection = `
     </div>
 
     <div class="hero-ai-pills-wrap">
-      <div class="hero-ai-pills-label">CONÇU POUR REMPORTER DES PRIX DANS</div>
+      <div class="hero-ai-pills-label">CONNECTÉ AUX MEILLEURS MODÈLES DU MARCHÉ</div>
       <div class="hero-ai-pills-row" aria-label="Moteurs et modèles d’IA">
         <div class="hero-ai-pill">
           <img src="${chatgptLogo}" alt="ChatGPT" class="hero-ai-pill-icon" width="22" height="22" loading="lazy" />
