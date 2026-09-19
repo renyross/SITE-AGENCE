@@ -514,12 +514,12 @@ const methodologySection = `
 <section aria-labelledby="method-title" class="methodology" id="methodology" lang="fr">
   <div class="method-header">
     <div class="method-header-left">
-      <div class="method-sublabel">— LA MÉTHODOLOGIE</div>
-      <h2 id="method-title">Comment<br/>nous construisons<br/><span>votre croissance.</span></h2>
+      <div class="method-sublabel">— PROTOCOLE DE DÉPLOIEMENT</div>
+      <h2 id="method-title">Comment<br/>nous orchestrons<br/><span>votre croissance.</span></h2>
     </div>
     <div class="method-header-right">
-      <p>Un système opérationnel en quatre étapes, déployable en quelques semaines et non en plusieurs trimestres. Chaque étape comprend un livrable précis, un responsable de haut niveau et un critère de sortie mesurable.</p>
-      <a class="button primary" href="/book-call">Réserver un appel de cadrage <span aria-hidden="true">&nbsp;↗</span></a>
+      <p>Un système opérationnel en quatre temps, activable en quelques semaines plutôt qu'en trimestres incertains. Chaque phase intègre un livrable auditable, un expert dédié et des indicateurs de performance non négociables.</p>
+      <a class="button primary" href="/free-ai-visibility-audit">Cadrer mon diagnostic gratuit <span aria-hidden="true">&nbsp;↗</span></a>
     </div>
   </div>
 
@@ -535,8 +535,8 @@ const methodologySection = `
             <span class="method-dot" aria-hidden="true"></span>
           </div>
           <div class="method-period">01 · SEMAINES 1 À 4</div>
-          <h3 class="method-step-name">Découverte <span class="method-accent-dot">.</span></h3>
-          <p class="method-step-text">Écoute forensique : vos données, vos acheteurs et le paysage concurrentiel. Sans suppositions.</p>
+          <h3 class="method-step-name">Immersion & Diagnostic <span class="method-accent-dot">.</span></h3>
+          <p class="method-step-text">Dissection chirurgicale de vos métriques réelles, cartographie du parcours de vos acheteurs et audit sans fard du marché concurrentiel. Zéro postulat, 100 % de données vérifiées.</p>
         </div>
       </li>
 
@@ -546,9 +546,9 @@ const methodologySection = `
           <div class="method-node">
             <span class="method-dot" aria-hidden="true"></span>
           </div>
-          <div class="method-period">02 · SEMAINE 5–6</div>
-          <h3 class="method-step-name">Stratégie <span class="method-accent-dot">.</span></h3>
-          <p class="method-step-text">Un plan directeur sur 90 jours comprenant une architecture de conversion, des calculs de canaux et des livrables que votre conseil d'administration peut auditer.</p>
+          <div class="method-period">02 · SEMAINES 5 & 6</div>
+          <h3 class="method-step-name">Architecture stratégique <span class="method-accent-dot">.</span></h3>
+          <p class="method-step-text">Un plan directeur sur 90 jours chiffré à l'euro près : modélisation des entonnoirs de conversion, arbitrage précis des canaux et livrables prêts à être validés par votre direction.</p>
         </div>
       </li>
 
@@ -558,9 +558,9 @@ const methodologySection = `
           <div class="method-node">
             <span class="method-dot" aria-hidden="true"></span>
           </div>
-          <div class="method-period">03 · SEMAINES 7–14</div>
-          <h3 class="method-step-name">Exécution <span class="method-accent-dot">.</span></h3>
-          <p class="method-step-text">Le code, le contenu et les campagnes sont déployés chaque semaine par sprints synchronisés, et non lors de grandes révélations trimestrielles.</p>
+          <div class="method-period">03 · SEMAINES 7 À 14</div>
+          <h3 class="method-step-name">Déploiement en sprints <span class="method-accent-dot">.</span></h3>
+          <p class="method-step-text">Code, automatisations IA, contenus d'autorité et campagnes sont mis en production chaque semaine en cycles synchronisés. Fini l'effet tunnel : des progrès mesurables dès le premier mois.</p>
         </div>
       </li>
 
@@ -570,9 +570,9 @@ const methodologySection = `
           <div class="method-node">
             <span class="method-dot" aria-hidden="true"></span>
           </div>
-          <div class="method-period">04 · EN COURS</div>
-          <h3 class="method-step-name">Échelle <span class="method-accent-dot">.</span></h3>
-          <p class="method-step-text">L'itération est un système, pas un événement ponctuel. Chaque semaine, votre avantage concurrentiel se renforce ; chaque trimestre, votre CAC diminue.</p>
+          <div class="method-period">04 · EN CONTINU</div>
+          <h3 class="method-step-name">Optimisation & Échelle <span class="method-accent-dot">.</span></h3>
+          <p class="method-step-text">L'itération permanente comme avantage compétitif : nos algorithmes et nos équipes affinent vos systèmes chaque semaine pour creuser l'écart et comprimer durablement votre coût d'acquisition (CAC).</p>
         </div>
       </li>
     </ol>
